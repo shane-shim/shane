@@ -40,13 +40,8 @@ jobs:
           PER_FEED_LIMIT: 5
           CACHE_PATH: .cache/growth_news_bot.json
           # Translation (optional)
-          # TRANSLATE_TO: ko
-          # TRANSLATE_BACKEND: deepl # or libre | openai
-          # DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
-          # LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
-          # LIBRETRANSLATE_API_KEY: ${{ secrets.LIBRETRANSLATE_API_KEY }}
-          # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # OPENAI_MODEL: gpt-4o-mini
+          TRANSLATE_TO: ko
+          TRANSLATE_BACKEND: libre
+          LIBRETRANSLATE_URL: https://libretranslate.com
         run: |
           python scripts/python/growth_news_bot.py
-
