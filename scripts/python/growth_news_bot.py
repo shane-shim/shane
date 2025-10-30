@@ -83,8 +83,21 @@ def fetch_feed(url: str):
     return feedparser.parse(url)
 
 
-def post_discord(webhook: str, content: str) -> None:
-    data = json.dumps({"content": content}).encode("utf-8")
+def post_discord(webhook: str, content: str, *, title: Optional[str] = None, url: Optional[str] = None, footer: Optional[str] = None) -> None:
+    use_embeds = os.environ.get("DISCORD_USE_EMBEDS", "0") in ("1", "true", "True")
+    if use_embeds and (title or url):
+        embed: Dict[str, Any] = {
+            "type": "rich",
+            "title": title or "Growth News",
+            "url": url or None,
+            "description": content,
+        }
+        if footer:
+            embed["footer"] = {"text": footer}
+        payload = {"embeds": [embed]}
+    else:
+        payload = {"content": content}
+    data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
         webhook,
         data=data,
@@ -100,21 +113,27 @@ def _ensure_len(s: str, limit: int = 1900) -> str:
     return s if len(s) <= limit else s[: limit - 3] + "..."
 
 
-def build_message(source: str, entry, translate_to: Optional[str]) -> str:
+def _fields(entry) -> Tuple[str, str, str, str]:
     title = getattr(entry, "title", "(no title)")
     link = getattr(entry, "link", "")
     published = getattr(entry, "published", "") or getattr(entry, "updated", "")
+    summary = getattr(entry, "summary", None) or getattr(entry, "description", None) or ""
+    return title, link, published, summary
+
+
+def build_message(source: str, entry, translate_to: Optional[str]) -> Tuple[str, str, Optional[str]]:
+    title, link, published, summary = _fields(entry)
     msg = f"[{source}] {title}\n{link}"
     if published:
         msg += f"\nPublished: {published}"
-    # Optional translation
+    trans = None
     if translate_to:
-        summary = getattr(entry, "summary", None) or getattr(entry, "description", None) or ""
         compact = _ensure_len(f"{title}\n{summary}", 800)
         tr = translate_text(compact, translate_to)
         if tr:
-            msg += f"\n\n[번역]\n{_ensure_len(tr, 900)}"
-    return _ensure_len(msg, 1900)
+            trans = _ensure_len(tr, 900)
+            msg += f"\n\n[번역]\n{trans}"
+    return _ensure_len(msg, 1900), title, published or None
 
 
 def entry_age_hours(entry) -> Optional[float]:
@@ -312,9 +331,9 @@ def main() -> None:
         if not link:
             continue
         cache_links.add(link)
-        msg = build_message(source, entry, translate_to)
+        msg, title, published = build_message(source, entry, translate_to)
         try:
-            post_discord(webhook, msg)
+            post_discord(webhook, msg, title=title, url=getattr(entry, "link", ""), footer=(f"{source} • {published}" if published else source))
         except Exception as e:
             print(f"[WARN] Discord post failed: {e}", file=sys.stderr)
         time.sleep(1.2)
