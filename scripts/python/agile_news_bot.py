@@ -354,9 +354,6 @@ def main() -> None:
         time.sleep(1.2)
 
     save_cache(cache_path, cache_links)
-        except Exception as e:
-            print(f"[WARN] {source}: {e}", file=sys.stderr)
-            continue
 
 
 if __name__ == "__main__":
