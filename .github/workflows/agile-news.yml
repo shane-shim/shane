@@ -46,5 +46,6 @@ jobs:
           TRANSLATE_TO: ko
           TRANSLATE_BACKEND: libre
           LIBRETRANSLATE_URL: https://libretranslate.com
+          DISCORD_USE_EMBEDS: "1"
         run: |
           python scripts/python/agile_news_bot.py
