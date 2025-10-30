@@ -1,0 +1,43 @@
+# Optional custom sources for Agile news → Discord bot
+# If present, the bot will use ONLY these and ignore built-in defaults.
+# Specify a list of { name, url } items.
+
+- name: Scrum.org
+  url: https://www.scrum.org/resources/rss.xml
+- name: Scrum Alliance
+  url: https://resources.scrumalliance.org/feed
+- name: Agile Alliance
+  url: https://www.agilealliance.org/feed/
+- name: Martin Fowler
+  url: https://martinfowler.com/feed.atom
+- name: Mike Cohn (Mountain Goat)
+  url: https://www.mountaingoatsoftware.com/blog/rss
+- name: Kanban University
+  url: https://kanban.university/blog/feed/
+- name: r/agile
+  url: https://www.reddit.com/r/agile/.rss
+- name: r/scrum
+  url: https://www.reddit.com/r/scrum/.rss
+# Medium (tag feeds)
+- name: Medium #agile
+  url: https://medium.com/feed/tag/agile
+- name: Medium #scrum
+  url: https://medium.com/feed/tag/scrum
+# Dev.to (tag feeds)
+- name: dev.to #agile
+  url: https://dev.to/feed/tag/agile
+- name: dev.to #scrum
+  url: https://dev.to/feed/tag/scrum
+# Google News (search RSS)
+- name: Google News (Agile software)
+  url: https://news.google.com/rss/search?q=Agile+software&hl=en-US&gl=US&ceid=US:en
+- name: Google News (Scrum)
+  url: https://news.google.com/rss/search?q=Scrum+framework&hl=en-US&gl=US&ceid=US:en
+# Hacker News search (Agile)
+- name: Hacker News (Agile)
+  url: https://hnrss.org/newest?q=agile
+# Optional X via Nitter (set NITTER_BASE secret for better stability)
+#- name: Jeff Sutherland (X via Nitter)
+#  url: https://nitter.net/jeffsutherland/rss
+#- name: Ken Schwaber (X via Nitter)
+#  url: https://nitter.net/kschwaber/rss
