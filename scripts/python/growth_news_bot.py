@@ -310,6 +310,16 @@ def main() -> None:
             continue
 
     if not candidates:
+        try:
+            post_discord(
+                webhook,
+                f"[Growth News Bot] 최근 {int(window_hours)}시간 동안 새 항목이 없습니다.",
+                title="Growth News Bot",
+                url=None,
+                footer="heartbeat"
+            )
+        except Exception as e:
+            print(f"[WARN] Heartbeat post failed: {e}", file=sys.stderr)
         save_cache(cache_path, cache_links)
         return
 

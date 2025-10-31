@@ -17,9 +17,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache
-          key: agile-news-cache-${{ github.run_id }}
+          key: agile-news-cache-shared
           restore-keys: |
-            agile-news-cache-
+            agile-news-cache-shared
 
       - name: Setup Python
         uses: actions/setup-python@v5

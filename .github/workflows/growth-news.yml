@@ -17,9 +17,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache
-          key: growth-news-cache-${{ github.run_id }}
+          key: growth-news-cache-shared
           restore-keys: |
-            growth-news-cache-
+            growth-news-cache-shared
 
       - name: Setup Python
         uses: actions/setup-python@v5
