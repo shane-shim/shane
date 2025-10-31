@@ -98,9 +98,10 @@ def post_discord(webhook: str, content: str, *, title: Optional[str] = None, url
         embed: Dict[str, Any] = {
             "type": "rich",
             "title": title or "Agile News",
-            "url": url or None,
             "description": content,
         }
+        if url:
+            embed["url"] = url
         if footer:
             embed["footer"] = {"text": footer}
         payload = {"embeds": [embed]}
