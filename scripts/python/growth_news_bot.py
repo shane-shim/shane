@@ -85,6 +85,20 @@ def fetch_feed(url: str):
 
 def post_discord(webhook: str, content: str, *, title: Optional[str] = None, url: Optional[str] = None, footer: Optional[str] = None) -> None:
     use_embeds = os.environ.get("DISCORD_USE_EMBEDS", "0") in ("1", "true", "True")
+    strict = os.environ.get("STRICT_DISCORD", "1") in ("1", "true", "True")
+
+    def _send(payload: Dict[str, Any]) -> int:
+        data = json.dumps(payload).encode("utf-8")
+        req = urllib.request.Request(
+            webhook,
+            data=data,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return resp.status
+
+    last_err = None
     if use_embeds and (title or url):
         embed: Dict[str, Any] = {
             "type": "rich",
@@ -95,19 +109,25 @@ def post_discord(webhook: str, content: str, *, title: Optional[str] = None, url
             embed["url"] = url
         if footer:
             embed["footer"] = {"text": footer}
-        payload = {"embeds": [embed]}
+        try:
+            status = _send({"embeds": [embed]})
+            if status < 300:
+                return
+        except Exception as e:
+            last_err = e
+
+    try:
+        status = _send({"content": content})
+        if status < 300:
+            return
+        last_err = RuntimeError(f"Discord responded with {status}")
+    except Exception as e:
+        last_err = e
+
+    if strict and last_err:
+        raise last_err
     else:
-        payload = {"content": content}
-    data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        webhook,
-        data=data,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        if resp.status >= 300:
-            raise RuntimeError(f"Discord responded with {resp.status}")
+        print(f"[WARN] Discord post failed (non-strict): {last_err}", file=sys.stderr)
 
 
 def _ensure_len(s: str, limit: int = 1900) -> str:
