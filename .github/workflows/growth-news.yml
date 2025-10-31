@@ -31,12 +31,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser pyyaml
       - name: Ping webhook
+        continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.GROWTH_WEBHOOK_URL }}
         run: |
           code=$(curl -sS -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json' \
             -d '{"content":"[Growth Bot] Runner ping"}' "$DISCORD_WEBHOOK_URL");
-          echo "HTTP=$code"; test "$code" = "204"
+          echo "HTTP=$code" || true
 
       - name: Send Growth news to Discord
         env:
