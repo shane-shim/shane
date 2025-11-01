@@ -2,8 +2,8 @@ name: Growth News to Discord
 
 on:
   schedule:
-    # Daily 09:00 KST (00:00 UTC)
-    - cron: '0 0 * * *'
+    # Daily 09:05 KST (00:05 UTC)
+    - cron: '5 0 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
       - name: Send Growth news to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.GROWTH_WEBHOOK_URL }}
-          POST_WINDOW_HOURS: 72
+          POST_WINDOW_HOURS: 168
           DAILY_COUNT: 3
           MAX_PER_SOURCE: 1
           PER_FEED_LIMIT: 5
@@ -46,6 +46,8 @@ jobs:
           TRANSLATE_TO: ko
           TRANSLATE_BACKEND: libre
           LIBRETRANSLATE_URL: https://libretranslate.com
-          DISCORD_USE_EMBEDS: "1"
+          DISCORD_USE_EMBEDS: "0"
+          STRICT_DISCORD: "0"
+          DEBUG: "1"
         run: |
           python scripts/python/growth_news_bot.py

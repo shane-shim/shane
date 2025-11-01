@@ -333,12 +333,15 @@ def main() -> None:
     window_hours = float(os.environ.get("POST_WINDOW_HOURS", "12"))
     cache_path = os.environ.get("CACHE_PATH", ".cache/agile_news_bot.json")
     cache_links = load_cache(cache_path)
+    debug = os.environ.get("DEBUG", "0") in ("1","true","True")
     translate_to = os.environ.get("TRANSLATE_TO", "").strip() or None
 
     seen_links = set()
     # Collect candidates across sources
     per_feed_limit = int(os.environ.get("PER_FEED_LIMIT", "5"))
     candidates: List[Tuple[float, str, Any]] = []  # (epoch, source, entry)
+    if debug:
+        print(f"[DEBUG] sources={len(sources)} window_hours={window_hours}")
     for source, url in sources:
         try:
             feed = fetch_feed(url)
@@ -361,6 +364,8 @@ def main() -> None:
             print(f"[WARN] Fetch {source}: {e}", file=sys.stderr)
             continue
 
+    if debug:
+        print(f"[DEBUG] candidates={len(candidates)}")
     if not candidates:
         # Post a heartbeat so it's visible that the bot ran
         try:
@@ -398,6 +403,8 @@ def main() -> None:
             continue
         cache_links.add(link)
         msg, title, published = build_message(source, entry, translate_to)
+        if debug:
+            print(f"[DEBUG] posting: source={source} title={title} link={link}")
         try:
             post_discord(webhook, msg, title=title, url=getattr(entry, "link", ""), footer=(f"{source} • {published}" if published else source))
         except Exception as e:

@@ -2,8 +2,8 @@ name: Agile News to Discord
 
 on:
   schedule:
-    # Daily 09:00 KST == 00:00 UTC
-    - cron: '0 0 * * *'
+    # Daily 09:05 KST == 00:05 UTC
+    - cron: '5 0 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -40,15 +40,18 @@ jobs:
           # Optional: set to a working Nitter instance, e.g., https://nitter.net
           # NITTER_BASE: ${{ secrets.NITTER_BASE }}
           # Optional: window to consider items fresh (hours)
-          POST_WINDOW_HOURS: 72
+          POST_WINDOW_HOURS: 168
           CACHE_PATH: .cache/agile_news_bot.json
           DAILY_COUNT: 3
           MAX_PER_SOURCE: 1
           PER_FEED_LIMIT: 5
+          # Output format / reliability
+          DISCORD_USE_EMBEDS: "0"
+          STRICT_DISCORD: "0"
+          DEBUG: "1"
           # Optional translation to Korean (or other): set target and backend
           TRANSLATE_TO: ko
           TRANSLATE_BACKEND: libre
           LIBRETRANSLATE_URL: https://libretranslate.com
-          DISCORD_USE_EMBEDS: "1"
         run: |
           python scripts/python/agile_news_bot.py
