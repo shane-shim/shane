@@ -13,6 +13,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+
+      - name: Webhook health-check
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.GROWTH_WEBHOOK_URL }}
+        run: |
+          set -e
+          CODE=$(curl -s -o /dev/null -w "%{http_code}" -H 'Content-Type: application/json'             -X POST "$DISCORD_WEBHOOK_URL?wait=true"             -d '{"content":"[health-check] Growth News webhook"}')
+          echo "Webhook HTTP $CODE"
+          if [ -z "$CODE" ] || [ "$CODE" -lt 200 ] || [ "$CODE" -ge 300 ]; then
+            echo "Discord webhook health-check failed"
+            exit 1
+          fi
+
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -42,6 +56,7 @@ jobs:
           MAX_PER_SOURCE: 1
           PER_FEED_LIMIT: 5
           CACHE_PATH: .cache/growth_news_bot.json
+          STRICT_DISCORD: 1
           # Translation (optional)
           TRANSLATE_TO: ko
           TRANSLATE_BACKEND: libre

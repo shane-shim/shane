@@ -13,6 +13,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+
+      - name: Webhook health-check
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          STRICT_DISCORD: 1
+        run: |
+          set -e
+          CODE=$(curl -s -o /dev/null -w "%{http_code}" -H 'Content-Type: application/json'             -X POST "$DISCORD_WEBHOOK_URL?wait=true"             -d '{"content":"[health-check] Agile News webhook"}')
+          echo "Webhook HTTP $CODE"
+          if [ -z "$CODE" ] || [ "$CODE" -lt 200 ] || [ "$CODE" -ge 300 ]; then
+            echo "Discord webhook health-check failed"
+            exit 1
+          fi
+
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -37,6 +52,7 @@ jobs:
       - name: Send Agile news to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          STRICT_DISCORD: 1
           # Optional: set to a working Nitter instance, e.g., https://nitter.net
           # NITTER_BASE: ${{ secrets.NITTER_BASE }}
           # Optional: window to consider items fresh (hours)
