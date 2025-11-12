@@ -2,8 +2,8 @@ name: Growth News to Discord
 
 on:
   schedule:
-    # Daily 09:05 KST (00:05 UTC)
-    - cron: '5 0 * * *'
+    # Daily 09:00 KST (00:00 UTC)
+    - cron: '0 0 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -13,27 +13,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-
       - name: Webhook health-check
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.GROWTH_WEBHOOK_URL }}
         run: |
           set -e
-          CODE=$(curl -s -o /dev/null -w "%{http_code}" -H 'Content-Type: application/json'             -X POST "$DISCORD_WEBHOOK_URL?wait=true"             -d '{"content":"[health-check] Growth News webhook"}')
+          CODE=$(curl -s -o /dev/null -w "%{http_code}" -H 'Content-Type: application/json' \
+            -X POST "$DISCORD_WEBHOOK_URL?wait=true" \
+            -d '{"content":"[health-check] Growth News webhook"}')
           echo "Webhook HTTP $CODE"
           if [ -z "$CODE" ] || [ "$CODE" -lt 200 ] || [ "$CODE" -ge 300 ]; then
             echo "Discord webhook health-check failed"
             exit 1
           fi
 
-
       - name: Restore cache
         uses: actions/cache@v4
         with:
           path: .cache
-          key: growth-news-cache-shared
+          key: growth-news-cache-${{ github.run_id }}
           restore-keys: |
-            growth-news-cache-shared
+            growth-news-cache-
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -44,25 +44,24 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install feedparser pyyaml
-      - name: Env summary
-        run: |
-          echo "Embeds=$DISCORD_USE_EMBEDS; Window=$POST_WINDOW_HOURS; Daily=$DAILY_COUNT"
 
       - name: Send Growth news to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.GROWTH_WEBHOOK_URL }}
-          POST_WINDOW_HOURS: 168
+          POST_WINDOW_HOURS: 72
           DAILY_COUNT: 3
           MAX_PER_SOURCE: 1
           PER_FEED_LIMIT: 5
           CACHE_PATH: .cache/growth_news_bot.json
+          DISCORD_USE_CURL: 1
           STRICT_DISCORD: 1
           # Translation (optional)
-          TRANSLATE_TO: ko
-          TRANSLATE_BACKEND: libre
-          LIBRETRANSLATE_URL: https://libretranslate.com
-          DISCORD_USE_EMBEDS: "0"
-          STRICT_DISCORD: "0"
-          DEBUG: "1"
+          # TRANSLATE_TO: ko
+          # TRANSLATE_BACKEND: deepl # or libre | openai
+          # DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          # LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
+          # LIBRETRANSLATE_API_KEY: ${{ secrets.LIBRETRANSLATE_API_KEY }}
+          # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # OPENAI_MODEL: gpt-4o-mini
         run: |
           python scripts/python/growth_news_bot.py

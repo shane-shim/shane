@@ -23,6 +23,8 @@ import sys
 import json
 import time
 import urllib.request
+import urllib.error
+import subprocess
 from typing import List, Tuple, Optional, Set, Dict, Any
 import urllib.parse
 import random
@@ -88,86 +90,141 @@ def load_sources_from_yaml(path: str) -> Optional[List[Tuple[str, str]]]:
 
 
 def fetch_feed(url: str):
-    return feedparser.parse(url)
-
-
-def post_discord(webhook: str, content: str, *, title: Optional[str] = None, url: Optional[str] = None, footer: Optional[str] = None) -> None:
-    use_embeds = os.environ.get("DISCORD_USE_EMBEDS", "0") in ("1", "true", "True")
-    strict = os.environ.get("STRICT_DISCORD", "1") in ("1", "true", "True")
-
-    def _send(payload: Dict[str, Any]) -> int:
-        data = json.dumps(payload).encode("utf-8")
-        req = urllib.request.Request(
-            webhook,
-            data=data,
-            headers={"Content-Type": "application/json"},
-            method="POST",
-        )
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            return resp.status
-
-    last_err = None
-    # Try embed first (if enabled), then fallback to content
-    if use_embeds and (title or url):
-        embed: Dict[str, Any] = {
-            "type": "rich",
-            "title": title or "Agile News",
-            "description": content,
-        }
-        if url:
-            embed["url"] = url
-        if footer:
-            embed["footer"] = {"text": footer}
-        try:
-            status = _send({"embeds": [embed]})
-            if status < 300:
-                return
-        except Exception as e:
-            last_err = e
-            # fall through to content
-
+    headers = {
+        "User-Agent": "NerdlabNewsBot/1.0 (+https://nerdlab.local)",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+    }
     try:
-        status = _send({"content": content})
-        if status < 300:
-            return
-        last_err = RuntimeError(f"Discord responded with {status}")
-    except Exception as e:
-        last_err = e
+        feed = feedparser.parse(url, request_headers=headers)
+        if getattr(feed, 'entries', None):
+            return feed
+    except Exception:
+        pass
+    try:
+        req = urllib.request.Request(url, headers=headers, method="GET")
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            content = resp.read()
+        return feedparser.parse(content)
+    except Exception:
+        return feedparser.parse("")
 
-    if strict and last_err:
-        raise last_err
-    else:
-        print(f"[WARN] Discord post failed (non-strict): {last_err}", file=sys.stderr)
+
+def post_discord(webhook: str, content: str) -> None:
+    """Post a message to Discord webhook.
+
+    Behavior:
+    - If env DISCORD_USE_CURL is truthy, use curl directly.
+    - Otherwise try urllib first; on failure, fall back to curl.
+    - If STRICT_DISCORD is truthy, raise on non-2xx.
+    """
+    thread_id = os.environ.get("DISCORD_THREAD_ID", "").strip()
+    url = webhook
+    url += ("&" if "?" in url else "?") + "wait=true"
+    if thread_id:
+        url += f"&thread_id={urllib.parse.quote(thread_id)}"
+
+    payload = json.dumps({"content": content})
+    strict = os.environ.get("STRICT_DISCORD", "").lower() not in ("", "0", "false", "no")
+    force_curl = os.environ.get("DISCORD_USE_CURL", "").lower() not in ("", "0", "false", "no")
+
+    def _curl_send() -> None:
+        try:
+            proc = subprocess.run(
+                [
+                    "curl",
+                    "-sS",
+                    "-i",
+                    "-H",
+                    "Content-Type: application/json",
+                    "-H",
+                    "User-Agent: NerdlabNewsBot/1.0 (+https://nerdlab.local)",
+                    "-X",
+                    "POST",
+                    url,
+                    "--data",
+                    payload,
+                ],
+                capture_output=True,
+                text=True,
+                timeout=30,
+            )
+            # Parse first status line
+            status_code = 0
+            for line in proc.stdout.splitlines():
+                if line.startswith("HTTP/"):
+                    parts = line.split()
+                    if len(parts) >= 2 and parts[1].isdigit():
+                        status_code = int(parts[1])
+                    break
+            if status_code and status_code < 300:
+                print(f"[INFO] curl Discord post OK: HTTP {status_code}")
+            else:
+                msg = f"[ERROR] curl Discord post failed: HTTP {status_code or 'unknown'}"
+                print(msg, file=sys.stderr)
+                if strict:
+                    raise RuntimeError(msg)
+        except Exception as e:
+            print(f"[ERROR] curl post error: {e}", file=sys.stderr)
+            if strict:
+                raise
+
+    if force_curl:
+        _curl_send()
+        return
+
+    # urllib path first
+    data = payload.encode("utf-8")
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "NerdlabNewsBot/1.0 (+https://nerdlab.local)",
+    }
+    req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            if resp.status >= 300:
+                body = resp.read().decode("utf-8", errors="ignore")
+                err = f"Discord responded with {resp.status}: {body}"
+                print(f"[ERROR] {err}", file=sys.stderr)
+                if strict:
+                    raise RuntimeError(err)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="ignore")
+        print(f"[WARN] urllib HTTPError {e.code}: {body}", file=sys.stderr)
+        _curl_send()
+    except urllib.error.URLError as e:
+        print(f"[WARN] urllib URLError: {e.reason}", file=sys.stderr)
+        _curl_send()
 
 
-def _fields(entry) -> Tuple[str, str, str, str]:
+def build_message(source: str, entry, translate_to: Optional[str] = None) -> str:
     title = getattr(entry, "title", "(no title)")
     link = getattr(entry, "link", "")
     published = getattr(entry, "published", "") or getattr(entry, "updated", "")
-    summary = getattr(entry, "summary", None) or getattr(entry, "description", None) or ""
-    return title, link, published, summary
-
-
-def build_message(source: str, entry, translate_to: Optional[str] = None) -> Tuple[str, str, Optional[str]]:
-    title, link, published, summary = _fields(entry)
-    # content body (for non-embed fallback)
     msg = f"[{source}] {title}\n{link}"
     if published:
         msg += f"\nPublished: {published}"
-    trans = None
+    # Optional translation to Korean (or other target)
     if translate_to:
-        compact = _ensure_len(f"{title}\n{summary}", 800)
+        # Combine title + short summary for better translation context
+        summary = getattr(entry, "summary", None) or getattr(entry, "description", None) or ""
+        compact = f"{title}\n{summary}"
+        compact = _ensure_len(compact, 800)
         tr = translate_text(compact, translate_to)
         if tr:
-            trans = _ensure_len(tr, 900)
-            msg += f"\n\n[번역]\n{trans}"
-    return _ensure_len(msg, 1900), title, published or None
+            tr = _ensure_len(tr, 900)
+            msg += f"\n\n[번역]\n{tr}"
+    return _ensure_len(msg, 1900)
 
 
 def entry_age_hours(entry) -> Optional[float]:
     # Use published_parsed or updated_parsed if available
     ts = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
     if not ts:
+        return None
+    try:
+        epoch = time.mktime(ts)
+        return (time.time() - epoch) / 3600.0
+    except Exception:
         return None
 
 
@@ -314,12 +371,6 @@ def save_cache(path: str, links: Set[str]) -> None:
             json.dump({"links": sorted(links)}, f)
     except Exception as e:
         print(f"[WARN] Failed to save cache: {e}", file=sys.stderr)
-    # time.struct_time → epoch
-    try:
-        epoch = time.mktime(ts)
-        return (time.time() - epoch) / 3600.0
-    except Exception:
-        return None
 
 
 def main() -> None:
@@ -332,16 +383,14 @@ def main() -> None:
 
     window_hours = float(os.environ.get("POST_WINDOW_HOURS", "12"))
     cache_path = os.environ.get("CACHE_PATH", ".cache/agile_news_bot.json")
-    cache_links = load_cache(cache_path)
-    debug = os.environ.get("DEBUG", "0") in ("1","true","True")
+    disable_cache = os.environ.get("DISABLE_CACHE", "") or os.environ.get("BYPASS_CACHE", "")
+    cache_links = set() if disable_cache else load_cache(cache_path)
     translate_to = os.environ.get("TRANSLATE_TO", "").strip() or None
 
     seen_links = set()
     # Collect candidates across sources
     per_feed_limit = int(os.environ.get("PER_FEED_LIMIT", "5"))
     candidates: List[Tuple[float, str, Any]] = []  # (epoch, source, entry)
-    if debug:
-        print(f"[DEBUG] sources={len(sources)} window_hours={window_hours}")
     for source, url in sources:
         try:
             feed = fetch_feed(url)
@@ -364,22 +413,30 @@ def main() -> None:
             print(f"[WARN] Fetch {source}: {e}", file=sys.stderr)
             continue
 
-    if debug:
-        print(f"[DEBUG] candidates={len(candidates)}")
     if not candidates:
-        # Post a heartbeat so it's visible that the bot ran
+        # Relax the time window: include recent entries ignoring age constraint
         try:
-            post_discord(
-                webhook,
-                f"[Agile News Bot] 최근 {int(window_hours)}시간 동안 새 항목이 없습니다.",
-                title="Agile News Bot",
-                url=None,
-                footer="heartbeat"
-            )
-        except Exception as e:
-            print(f"[WARN] Heartbeat post failed: {e}", file=sys.stderr)
-        save_cache(cache_path, cache_links)
-        return
+            for source, url in sources:
+                try:
+                    feed = fetch_feed(url)
+                    entries = getattr(feed, 'entries', []) or []
+                    for entry in entries[:per_feed_limit]:
+                        link = getattr(entry, "link", "")
+                        if not link:
+                            continue
+                        if link in cache_links:
+                            continue
+                        ts = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
+                        epoch = time.mktime(ts) if ts else time.time()
+                        candidates.append((epoch, source, entry))
+                except Exception:
+                    continue
+        except Exception:
+            pass
+        if not candidates:
+            if not disable_cache:
+                save_cache(cache_path, cache_links)
+            return
 
     # Random selection with per-source cap
     daily_count = int(os.environ.get("DAILY_COUNT", "3"))
@@ -402,16 +459,19 @@ def main() -> None:
         if not link:
             continue
         cache_links.add(link)
-        msg, title, published = build_message(source, entry, translate_to)
-        if debug:
-            print(f"[DEBUG] posting: source={source} title={title} link={link}")
+        msg = build_message(source, entry, translate_to)
         try:
-            post_discord(webhook, msg, title=title, url=getattr(entry, "link", ""), footer=(f"{source} • {published}" if published else source))
+            post_discord(webhook, msg)
         except Exception as e:
             print(f"[WARN] Discord post failed: {e}", file=sys.stderr)
         time.sleep(1.2)
 
-    save_cache(cache_path, cache_links)
+        if not disable_cache:
+            try:
+                save_cache(cache_path, cache_links)
+            except Exception as e:
+                print(f"[WARN] {source}: {e}", file=sys.stderr)
+                continue
 
 
 if __name__ == "__main__":

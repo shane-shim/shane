@@ -2,8 +2,8 @@ name: Agile News to Discord
 
 on:
   schedule:
-    # Daily 09:05 KST == 00:05 UTC
-    - cron: '5 0 * * *'
+    # Daily 09:00 KST == 00:00 UTC
+    - cron: '0 0 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -13,28 +13,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-
       - name: Webhook health-check
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          STRICT_DISCORD: 1
         run: |
           set -e
-          CODE=$(curl -s -o /dev/null -w "%{http_code}" -H 'Content-Type: application/json'             -X POST "$DISCORD_WEBHOOK_URL?wait=true"             -d '{"content":"[health-check] Agile News webhook"}')
+          CODE=$(curl -s -o /dev/null -w "%{http_code}" -H 'Content-Type: application/json' \
+            -X POST "$DISCORD_WEBHOOK_URL?wait=true" \
+            -d '{"content":"[health-check] Agile News webhook"}')
           echo "Webhook HTTP $CODE"
           if [ -z "$CODE" ] || [ "$CODE" -lt 200 ] || [ "$CODE" -ge 300 ]; then
             echo "Discord webhook health-check failed"
             exit 1
           fi
 
-
       - name: Restore cache
         uses: actions/cache@v4
         with:
           path: .cache
-          key: agile-news-cache-shared
+          key: agile-news-cache-${{ github.run_id }}
           restore-keys: |
-            agile-news-cache-shared
+            agile-news-cache-
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -45,29 +44,27 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install feedparser pyyaml
-      - name: Env summary
-        run: |
-          echo "Embeds=$DISCORD_USE_EMBEDS; Window=$POST_WINDOW_HOURS; Daily=$DAILY_COUNT"
 
       - name: Send Agile news to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           STRICT_DISCORD: 1
+          DISCORD_USE_CURL: 1
           # Optional: set to a working Nitter instance, e.g., https://nitter.net
           # NITTER_BASE: ${{ secrets.NITTER_BASE }}
           # Optional: window to consider items fresh (hours)
-          POST_WINDOW_HOURS: 168
+          POST_WINDOW_HOURS: 72
           CACHE_PATH: .cache/agile_news_bot.json
           DAILY_COUNT: 3
           MAX_PER_SOURCE: 1
           PER_FEED_LIMIT: 5
-          # Output format / reliability
-          DISCORD_USE_EMBEDS: "0"
-          STRICT_DISCORD: "0"
-          DEBUG: "1"
           # Optional translation to Korean (or other): set target and backend
-          TRANSLATE_TO: ko
-          TRANSLATE_BACKEND: libre
-          LIBRETRANSLATE_URL: https://libretranslate.com
+          # TRANSLATE_TO: ko
+          # TRANSLATE_BACKEND: deepl # or libre | openai
+          # DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          # LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
+          # LIBRETRANSLATE_API_KEY: ${{ secrets.LIBRETRANSLATE_API_KEY }}
+          # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # OPENAI_MODEL: gpt-4o-mini
         run: |
           python scripts/python/agile_news_bot.py
