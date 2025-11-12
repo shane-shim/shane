@@ -1,0 +1,11 @@
+[2025-07-14T16:14:45.926+0900] {processor.py:161} INFO - Started process (PID=55749) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-07-14T16:14:45.928+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-07-14T16:14:45.928+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:45.928+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-07-14T16:14:45.933+0900] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-07-14T16:14:46.026+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:46.026+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-07-14T16:14:46.029+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:46.029+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-07-14T16:14:46.031+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:46.031+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-07-14T16:14:46.031+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:46.031+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:46.034+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:46.034+0900] {dag.py:3118} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-07-14T16:14:46.039+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:46.039+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-07-14 00:00:00+00:00, run_after=2025-07-14 04:00:00+00:00
+[2025-07-14T16:14:46.046+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.121 seconds

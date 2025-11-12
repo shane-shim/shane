@@ -1,0 +1,11 @@
+[2025-07-14T16:15:01.742+0900] {processor.py:161} INFO - Started process (PID=55775) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-07-14T16:15:01.743+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-14T16:15:01.744+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:01.744+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-07-14T16:15:01.748+0900] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-07-14T16:15:01.843+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:01.842+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-07-14T16:15:01.846+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:01.846+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_complex
+[2025-07-14T16:15:01.848+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:01.848+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-07-14T16:15:01.848+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:01.848+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:15:01.851+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:01.851+0900] {dag.py:3118} INFO - Creating ORM DAG for example_complex
+[2025-07-14T16:15:01.852+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:01.851+0900] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-14T16:15:01.858+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds

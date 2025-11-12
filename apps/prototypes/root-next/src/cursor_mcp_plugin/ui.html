@@ -1,0 +1,94 @@
+<html>
+<head>
+  <style>
+    body {
+      font: 12px sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    #status {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background: #18A0FB;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 8px;
+    }
+    button:hover {
+      background: #0D8DE3;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="status">Select frames or components to export</div>
+  <button id="exportBtn">Export Selected</button>
+  
+  <script>
+    let ws = null;
+
+    function connectWebSocket() {
+      ws = new WebSocket('ws://localhost:3055');
+      
+      ws.onopen = () => {
+        console.log('Connected to WebSocket server');
+        document.getElementById('status').textContent = 'Connected to server';
+      };
+      
+      ws.onclose = () => {
+        console.log('Disconnected from WebSocket server');
+        document.getElementById('status').textContent = 'Disconnected from server';
+        setTimeout(connectWebSocket, 3000);
+      };
+      
+      ws.onerror = (error) => {
+        console.error('WebSocket error:', error);
+      };
+    }
+
+    // 초기 WebSocket 연결
+    connectWebSocket();
+
+    document.getElementById('exportBtn').onclick = () => {
+      console.log('Export button clicked');
+      document.getElementById('status').textContent = 'Exporting...';
+      parent.postMessage({ pluginMessage: { type: 'export-request' } }, '*');
+    };
+
+    window.onmessage = (event) => {
+      const message = event.data.pluginMessage;
+      console.log('Received message:', message);
+
+      if (!message) return;
+
+      if (message.type === 'status') {
+        document.getElementById('status').textContent = message.message;
+        document.getElementById('status').classList.remove('error');
+      }
+      else if (message.type === 'error') {
+        document.getElementById('status').textContent = message.message;
+        document.getElementById('status').classList.add('error');
+      }
+      else if (message.type === 'export-image' || message.type === 'export-design') {
+        // WebSocket이 연결되어 있는 경우에만 전송
+        if (ws && ws.readyState === WebSocket.OPEN) {
+          console.log('Sending to server:', message.type);
+          ws.send(JSON.stringify(message));
+        } else {
+          console.error('WebSocket not connected');
+          document.getElementById('status').textContent = 'Error: Server not connected';
+          document.getElementById('status').classList.add('error');
+        }
+      }
+    };
+  </script>
+</body>
+</html> 

@@ -1,0 +1,56 @@
+2025-07-14 16:13:42,330 INFO - Task context logging is enabled
+2025-07-14 16:13:42,333 INFO - Loaded executor: SequentialExecutor
+2025-07-14 16:13:42,418 INFO - Starting the scheduler
+2025-07-14 16:13:42,420 INFO - Processing each file at most -1 times
+2025-07-14 16:13:42,423 INFO - Launched DagFileProcessorManager with pid: 55547
+2025-07-14 16:13:42,424 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-07-14 16:15:15,293 INFO - Setting next_dagrun for system_health_check to 2025-07-14 04:00:00+00:00, run_after=2025-07-14 08:00:00+00:00
+2025-07-14 16:15:15,338 INFO - 1 tasks up for execution:
+	<TaskInstance: system_health_check.comprehensive_system_check scheduled__2025-07-14T00:00:00+00:00 [scheduled]>
+2025-07-14 16:15:15,339 INFO - DAG system_health_check has 0/16 running and queued tasks
+2025-07-14 16:15:15,339 INFO - Setting the following tasks to queued state:
+	<TaskInstance: system_health_check.comprehensive_system_check scheduled__2025-07-14T00:00:00+00:00 [scheduled]>
+2025-07-14 16:15:15,340 INFO - Sending TaskInstanceKey(dag_id='system_health_check', task_id='comprehensive_system_check', run_id='scheduled__2025-07-14T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-07-14 16:15:15,340 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'system_health_check', 'comprehensive_system_check', 'scheduled__2025-07-14T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/combined_bot_monitoring_dag.py']
+2025-07-14 16:15:15,341 INFO - Executing command: ['airflow', 'tasks', 'run', 'system_health_check', 'comprehensive_system_check', 'scheduled__2025-07-14T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/combined_bot_monitoring_dag.py']
+2025-07-14 16:15:18,141 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='system_health_check', task_id='comprehensive_system_check', run_id='scheduled__2025-07-14T00:00:00+00:00', try_number=1, map_index=-1)
+2025-07-14 16:15:18,146 INFO - TaskInstance Finished: dag_id=system_health_check, task_id=comprehensive_system_check, run_id=scheduled__2025-07-14T00:00:00+00:00, map_index=-1, run_start_date=2025-07-14 07:15:16.183092+00:00, run_end_date=2025-07-14 07:15:17.945813+00:00, run_duration=1.762721, state=success, executor_state=success, try_number=1, max_tries=1, job_id=2, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-07-14 07:15:15.339754+00:00, queued_by_job_id=1, pid=55824
+2025-07-14 16:15:18,822 INFO - Marking run <DagRun system_health_check @ 2025-07-14 00:00:00+00:00: scheduled__2025-07-14T00:00:00+00:00, state:running, queued_at: 2025-07-14 07:15:15.287676+00:00. externally triggered: False> successful
+2025-07-14 16:15:18,822 INFO - DagRun Finished: dag_id=system_health_check, execution_date=2025-07-14 00:00:00+00:00, run_id=scheduled__2025-07-14T00:00:00+00:00, run_start_date=2025-07-14 07:15:15.297031+00:00, run_end_date=2025-07-14 07:15:18.822703+00:00, run_duration=3.525672, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2025-07-14 00:00:00+00:00, data_interval_end=2025-07-14 04:00:00+00:00, dag_hash=222b0d4b72c7f9bbcd9384b6153d3796
+2025-07-14 16:15:18,825 INFO - Setting next_dagrun for system_health_check to 2025-07-14 04:00:00+00:00, run_after=2025-07-14 08:00:00+00:00
+2025-07-14 16:15:22,370 INFO - Setting next_dagrun for news_bot_monitoring to 2025-07-13 09:10:00+00:00, run_after=2025-07-14 09:10:00+00:00
+2025-07-14 16:15:22,386 INFO - 1 tasks up for execution:
+	<TaskInstance: news_bot_monitoring.check_news_bot_log scheduled__2025-07-12T09:10:00+00:00 [scheduled]>
+2025-07-14 16:15:22,386 INFO - DAG news_bot_monitoring has 0/16 running and queued tasks
+2025-07-14 16:15:22,387 INFO - Setting the following tasks to queued state:
+	<TaskInstance: news_bot_monitoring.check_news_bot_log scheduled__2025-07-12T09:10:00+00:00 [scheduled]>
+2025-07-14 16:15:22,387 INFO - Sending TaskInstanceKey(dag_id='news_bot_monitoring', task_id='check_news_bot_log', run_id='scheduled__2025-07-12T09:10:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2025-07-14 16:15:22,388 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'news_bot_monitoring', 'check_news_bot_log', 'scheduled__2025-07-12T09:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/news_bot_monitoring_dag.py']
+2025-07-14 16:15:22,388 INFO - Executing command: ['airflow', 'tasks', 'run', 'news_bot_monitoring', 'check_news_bot_log', 'scheduled__2025-07-12T09:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/news_bot_monitoring_dag.py']
+2025-07-14 16:15:24,118 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='news_bot_monitoring', task_id='check_news_bot_log', run_id='scheduled__2025-07-12T09:10:00+00:00', try_number=1, map_index=-1)
+2025-07-14 16:15:24,122 INFO - TaskInstance Finished: dag_id=news_bot_monitoring, task_id=check_news_bot_log, run_id=scheduled__2025-07-12T09:10:00+00:00, map_index=-1, run_start_date=2025-07-14 07:15:23.158208+00:00, run_end_date=2025-07-14 07:15:23.786601+00:00, run_duration=0.628393, state=success, executor_state=success, try_number=1, max_tries=1, job_id=3, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2025-07-14 07:15:22.387350+00:00, queued_by_job_id=1, pid=55837
+2025-07-14 16:15:24,862 INFO - Setting next_dagrun for qna_bot_monitoring to 2025-07-13 18:10:00+00:00, run_after=2025-07-14 18:10:00+00:00
+2025-07-14 16:15:24,875 INFO - 2 tasks up for execution:
+	<TaskInstance: qna_bot_monitoring.check_qna_bot_log scheduled__2025-07-12T18:10:00+00:00 [scheduled]>
+	<TaskInstance: news_bot_monitoring.check_and_notify scheduled__2025-07-12T09:10:00+00:00 [scheduled]>
+2025-07-14 16:15:24,875 INFO - DAG qna_bot_monitoring has 0/16 running and queued tasks
+2025-07-14 16:15:24,875 INFO - DAG news_bot_monitoring has 0/16 running and queued tasks
+2025-07-14 16:15:24,876 INFO - Setting the following tasks to queued state:
+	<TaskInstance: qna_bot_monitoring.check_qna_bot_log scheduled__2025-07-12T18:10:00+00:00 [scheduled]>
+	<TaskInstance: news_bot_monitoring.check_and_notify scheduled__2025-07-12T09:10:00+00:00 [scheduled]>
+2025-07-14 16:15:24,877 INFO - Sending TaskInstanceKey(dag_id='qna_bot_monitoring', task_id='check_qna_bot_log', run_id='scheduled__2025-07-12T18:10:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2025-07-14 16:15:24,877 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'qna_bot_monitoring', 'check_qna_bot_log', 'scheduled__2025-07-12T18:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/qna_bot_monitoring_dag.py']
+2025-07-14 16:15:24,877 INFO - Sending TaskInstanceKey(dag_id='news_bot_monitoring', task_id='check_and_notify', run_id='scheduled__2025-07-12T09:10:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2025-07-14 16:15:24,878 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'news_bot_monitoring', 'check_and_notify', 'scheduled__2025-07-12T09:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/news_bot_monitoring_dag.py']
+2025-07-14 16:15:24,878 INFO - Executing command: ['airflow', 'tasks', 'run', 'qna_bot_monitoring', 'check_qna_bot_log', 'scheduled__2025-07-12T18:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/qna_bot_monitoring_dag.py']
+2025-07-14 16:15:26,654 INFO - Executing command: ['airflow', 'tasks', 'run', 'news_bot_monitoring', 'check_and_notify', 'scheduled__2025-07-12T09:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/news_bot_monitoring_dag.py']
+2025-07-14 16:17:28,061 INFO - Exiting gracefully upon receiving signal 15
+2025-07-14 16:17:28,469 INFO - Sending Signals.SIGTERM to group 55547. PIDs of all processes in the group: []
+2025-07-14 16:17:28,470 INFO - Sending the signal Signals.SIGTERM to group 55547
+2025-07-14 16:17:28,471 INFO - Sending the signal Signals.SIGTERM to process 55547 as process group is missing.
+2025-07-14 16:17:28,475 INFO - Executing command: ['airflow', 'tasks', 'run', 'qna_bot_monitoring', 'check_qna_bot_log', 'scheduled__2025-07-12T18:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/qna_bot_monitoring_dag.py']
+2025-07-14 16:17:29,785 INFO - Executing command: ['airflow', 'tasks', 'run', 'news_bot_monitoring', 'check_and_notify', 'scheduled__2025-07-12T09:10:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/news_bot_monitoring_dag.py']
+2025-07-14 16:17:30,644 INFO - Sending Signals.SIGTERM to group 55547. PIDs of all processes in the group: []
+2025-07-14 16:17:30,644 INFO - Sending the signal Signals.SIGTERM to group 55547
+2025-07-14 16:17:30,645 INFO - Sending the signal Signals.SIGTERM to process 55547 as process group is missing.
+2025-07-14 16:17:30,645 INFO - Exited execute loop

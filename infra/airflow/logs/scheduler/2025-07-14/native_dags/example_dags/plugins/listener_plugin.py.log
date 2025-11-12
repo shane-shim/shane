@@ -1,0 +1,5 @@
+[2025-07-14T16:13:52.665+0900] {processor.py:161} INFO - Started process (PID=55619) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-07-14T16:13:52.666+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-07-14T16:13:52.667+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:52.667+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-07-14T16:13:52.668+0900] {processor.py:842} WARNING - No viable dags retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-07-14T16:13:52.699+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.036 seconds

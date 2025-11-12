@@ -1,0 +1,11 @@
+[2025-07-14T16:14:09.293+0900] {processor.py:161} INFO - Started process (PID=55687) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2025-07-14T16:14:09.295+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-07-14T16:14:09.295+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:09.295+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2025-07-14T16:14:09.312+0900] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2025-07-14T16:14:09.408+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:09.407+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom
+[2025-07-14T16:14:09.411+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:09.411+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom
+[2025-07-14T16:14:09.413+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:09.413+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom
+[2025-07-14T16:14:09.413+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:09.413+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:09.416+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:09.416+0900] {dag.py:3118} INFO - Creating ORM DAG for example_xcom
+[2025-07-14T16:14:09.419+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:09.419+0900] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-07-14T16:14:09.425+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.133 seconds

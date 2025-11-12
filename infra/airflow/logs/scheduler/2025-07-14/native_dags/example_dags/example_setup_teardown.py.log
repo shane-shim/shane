@@ -1,0 +1,11 @@
+[2025-07-14T16:14:29.022+0900] {processor.py:161} INFO - Started process (PID=55726) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-07-14T16:14:29.024+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-07-14T16:14:29.024+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:29.024+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-07-14T16:14:29.028+0900] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-07-14T16:14:29.120+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:29.119+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-07-14T16:14:29.122+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:29.122+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-07-14T16:14:29.125+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:29.125+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-07-14T16:14:29.125+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:29.125+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:29.128+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:29.128+0900] {dag.py:3118} INFO - Creating ORM DAG for example_setup_teardown
+[2025-07-14T16:14:29.133+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:29.132+0900] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-14T16:14:29.139+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.119 seconds

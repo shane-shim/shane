@@ -1,0 +1,11 @@
+[2025-07-14T16:14:05.318+0900] {processor.py:161} INFO - Started process (PID=55675) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-07-14T16:14:05.319+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-07-14T16:14:05.320+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:05.320+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-07-14T16:14:05.323+0900] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-07-14T16:14:05.407+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:05.407+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-07-14T16:14:05.410+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:05.410+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-07-14T16:14:05.411+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:05.411+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-07-14T16:14:05.412+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:05.412+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:05.415+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:05.415+0900] {dag.py:3118} INFO - Creating ORM DAG for tutorial
+[2025-07-14T16:14:05.419+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:05.419+0900] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-14T16:14:05.425+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.109 seconds

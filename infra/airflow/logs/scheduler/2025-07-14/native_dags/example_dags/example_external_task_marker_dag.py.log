@@ -1,0 +1,16 @@
+[2025-07-14T16:14:51.227+0900] {processor.py:161} INFO - Started process (PID=55755) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-07-14T16:14:51.229+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-07-14T16:14:51.229+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.229+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-07-14T16:14:51.235+0900] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-07-14T16:14:51.332+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.332+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_external_task_marker_child
+[2025-07-14T16:14:51.335+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.335+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_external_task_marker_child
+[2025-07-14T16:14:51.337+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.337+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_external_task_marker_child
+[2025-07-14T16:14:51.341+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.341+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_external_task_marker_parent
+[2025-07-14T16:14:51.343+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.342+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_external_task_marker_parent
+[2025-07-14T16:14:51.344+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.344+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_external_task_marker_parent
+[2025-07-14T16:14:51.345+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.345+0900] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-07-14T16:14:51.348+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.348+0900] {dag.py:3118} INFO - Creating ORM DAG for example_external_task_marker_child
+[2025-07-14T16:14:51.348+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.348+0900] {dag.py:3118} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2025-07-14T16:14:51.349+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.349+0900] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-07-14T16:14:51.349+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:51.349+0900] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-07-14T16:14:51.356+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.131 seconds

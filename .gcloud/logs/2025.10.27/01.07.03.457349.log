@@ -1,0 +1,18 @@
+2025-10-27 01:07:03,458 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2025-10-27 01:07:03,461 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'activate_service_account']
+2025-10-27 01:07:03,462 DEBUG    root            Running [gcloud.auth.activate-service-account] with arguments: [--key-file: "/Users/jaewansim/Desktop/nerdlab-datastudio-python/config/google_service_keys.json", --project: "inductive-folio-324208"]
+2025-10-27 01:07:03,572 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2025-10-27 01:07:03,592 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-10-27 01:07:03,921 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2025-10-27 01:07:03,923 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2025-10-27 01:07:03,933 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-10-27 01:07:04,251 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2025-10-27 01:07:04,264 INFO     ___FILE_ONLY___ Activated service account credentials for: [python-developer@inductive-folio-324208.iam.gserviceaccount.com]
+
+2025-10-27 01:07:04,265 DEBUG    root            Chosen display Format:none
+2025-10-27 01:07:04,265 INFO     root            Display format: "none"
+2025-10-27 01:07:04,265 DEBUG    root            Checking for updates...
+2025-10-27 01:07:04,282 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-10-27 01:07:04,658 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/11" 200 233157
+2025-10-27 01:07:04,865 DEBUG    root            Updating notification cache...
+2025-10-27 01:07:04,865 DEBUG    root            Activating notification: [default]

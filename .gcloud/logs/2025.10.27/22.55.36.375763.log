@@ -1,0 +1,13 @@
+2025-10-27 22:55:36,376 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2025-10-27 22:55:36,377 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'print_access_token']
+2025-10-27 22:55:36,378 DEBUG    root            Running [gcloud.auth.print-access-token] with arguments: [--scopes: "['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/cloud-platform']"]
+2025-10-27 22:55:36,447 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2025-10-27 22:55:36,450 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-10-27 22:55:36,897 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2025-10-27 22:55:36,899 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2025-10-27 22:55:36,901 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-10-27 22:55:37,267 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2025-10-27 22:55:37,269 DEBUG    root            Chosen display Format:value(token)
+2025-10-27 22:55:37,270 INFO     root            Display format: "value(token)"
+2025-10-27 22:55:37,282 INFO     ___FILE_ONLY___ ya29.c.c0ASRK0GbcCA2PVWWuJJqT24f-Z12qJyfJJunpLHNdw4mCyB8-pif2a5ZA2f_oMrH7taDtNiTxJVXeJQsfk7vR4OWjXmHsIXQtslVY7KjCLp1R4HqD78R4WlLtEvDLaV9eIIWgi_HR4jrmI3IeqXSYp8FXMijM3GwUAGfud9NffSaeUc11ZsAuRQgk4lvneN5bq-fmjjcHl4p0G5uSJXyXeZvoK4Zhxv8Im87NuBzjV8yvT_DGuqfMxtYKAEycOVCFgBcCdjA_IHVQsLd8b_abU9UdoigMoWmEeXHLQoJVuFLpj85aI1bFLboidOlKdLU27evI-NDjCCldPueNNDDnqUauvanUSVO7yfmsvV48hkiBGpuAB1h9kLxFhvB83AT391PJJrqwnrJfFsVSY4yc66e-g0bj8IeZ594z9zmdFzxM7eBdjtZrJe9bf-Mlky2mupf4fXjo-xiJIS36WgMn6_8Rk1xjzR-WgJ8f-baJ2pO6Xqnqgk1j7yIIq9B1IkgiMlVmsRnjSy_seWkegm-yXV8I67rFmouX4piqekp6iXsYzQXjrdpVpMtI0kX7uucO-YFWq-2Yx62bMgZ7tQpY3rnSp_9lomiqvJg2MgQf5vd0v9b2u5i3oYV45uRluXwF888qJghfXwRIMYyx72VoxQs0swcUtIyi_lB6fVk7d_rxIQd46n7ziS0mVRkgi3I0yd4bg90RnzyYuBMtv38lO42Ztk-kzVW3W1zBkeF3hQmf51fUVw4Vkc9MB555bUwqxpnqM8Mop32IYieQtukg28f2d-wMharli_aS53dkeBt-l3wu-r66dt7sQY0rniWbad3JVxbktu42hSofjBuRyqoB21a8JuUxe9wfbtSX_3Fv89ayIhdZIdYkhZkdptyQ1skh8MFQVZWa2bR493hSznj0skuRVn28bd904IZvlU4hp44On0xelmiXOtQ8lQdcrkdw84RkIwyVr_waIo2sO5eqd_8s4oBv8cbocVXSBcWWXu9cwUZ194-
+

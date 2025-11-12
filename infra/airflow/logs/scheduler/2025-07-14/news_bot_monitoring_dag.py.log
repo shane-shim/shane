@@ -1,0 +1,24 @@
+[2025-07-14T16:13:47.425+0900] {processor.py:161} INFO - Started process (PID=55588) to work on /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py
+[2025-07-14T16:13:47.427+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py for tasks to queue
+[2025-07-14T16:13:47.427+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.427+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py
+[2025-07-14T16:13:47.439+0900] {processor.py:840} INFO - DAG(s) 'news_bot_monitoring', 'news_bot_hourly_check' retrieved from /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py
+[2025-07-14T16:13:47.537+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.537+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:news_bot_monitoring
+[2025-07-14T16:13:47.540+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.539+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:news_bot_monitoring
+[2025-07-14T16:13:47.541+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.541+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:news_bot_monitoring
+[2025-07-14T16:13:47.545+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.545+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:news_bot_hourly_check
+[2025-07-14T16:13:47.547+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.547+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:news_bot_hourly_check
+[2025-07-14T16:13:47.548+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.548+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:news_bot_hourly_check
+[2025-07-14T16:13:47.549+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.548+0900] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-07-14T16:13:47.552+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.552+0900] {dag.py:3118} INFO - Creating ORM DAG for news_bot_monitoring
+[2025-07-14T16:13:47.553+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.553+0900] {dag.py:3118} INFO - Creating ORM DAG for news_bot_hourly_check
+[2025-07-14T16:13:47.557+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.557+0900] {dag.py:3954} INFO - Setting next_dagrun for news_bot_hourly_check to 2025-07-14 06:00:00+00:00, run_after=2025-07-14 07:00:00+00:00
+[2025-07-14T16:13:47.558+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:47.558+0900] {dag.py:3954} INFO - Setting next_dagrun for news_bot_monitoring to 2025-07-12 09:10:00+00:00, run_after=2025-07-13 09:10:00+00:00
+[2025-07-14T16:13:47.565+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py took 0.141 seconds
+[2025-07-14T16:15:22.201+0900] {processor.py:161} INFO - Started process (PID=55833) to work on /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py
+[2025-07-14T16:15:22.203+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py for tasks to queue
+[2025-07-14T16:15:22.203+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:22.203+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py
+[2025-07-14T16:15:22.214+0900] {processor.py:840} INFO - DAG(s) 'news_bot_monitoring', 'news_bot_hourly_check' retrieved from /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py
+[2025-07-14T16:15:22.271+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:22.271+0900] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-07-14T16:15:22.279+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:22.279+0900] {dag.py:3954} INFO - Setting next_dagrun for news_bot_hourly_check to 2025-07-14 06:00:00+00:00, run_after=2025-07-14 07:00:00+00:00
+[2025-07-14T16:15:22.280+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:22.280+0900] {dag.py:3954} INFO - Setting next_dagrun for news_bot_monitoring to 2025-07-12 09:10:00+00:00, run_after=2025-07-13 09:10:00+00:00
+[2025-07-14T16:15:22.286+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow/dags/news_bot_monitoring_dag.py took 0.087 seconds

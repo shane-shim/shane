@@ -1,0 +1,18 @@
+# Optional custom sources for Growth News bot
+# US-based growth leaders (Sean Ellis intentionally excluded per request)
+
+- name: Andrew Chen
+  url: https://andrewchen.com/feed/
+- name: Lenny's Newsletter
+  url: https://www.lennysnewsletter.com/feed
+- name: Neil Patel
+  url: https://neilpatel.com/blog/feed/
+- name: Backlinko (Brian Dean)
+  url: https://backlinko.com/feed
+- name: Growth Marketing Pro
+  url: https://www.growthmarketingpro.com/feed/
+- name: Nir & Far (Nir Eyal)
+  url: https://www.nirandfar.com/feed/
+# Optional X via Nitter
+#- name: Andrew Chen (X via Nitter)
+#  url: https://nitter.net/andrewchen/rss

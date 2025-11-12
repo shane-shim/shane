@@ -1,0 +1,11 @@
+[2025-07-14T16:13:59.384+0900] {processor.py:161} INFO - Started process (PID=55639) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-07-14T16:13:59.385+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-07-14T16:13:59.385+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:59.385+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-07-14T16:13:59.399+0900] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-07-14T16:13:59.502+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:59.502+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2025-07-14T16:13:59.505+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:59.505+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2025-07-14T16:13:59.507+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:59.507+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2025-07-14T16:13:59.507+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:59.507+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:13:59.510+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:59.510+0900] {dag.py:3118} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2025-07-14T16:13:59.511+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:59.511+0900] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-07-14T16:13:59.517+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.135 seconds

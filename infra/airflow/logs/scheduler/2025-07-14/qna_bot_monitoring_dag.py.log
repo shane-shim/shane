@@ -1,0 +1,24 @@
+[2025-07-14T16:13:45.600+0900] {processor.py:161} INFO - Started process (PID=55568) to work on /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py
+[2025-07-14T16:13:45.601+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py for tasks to queue
+[2025-07-14T16:13:45.602+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.602+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py
+[2025-07-14T16:13:45.613+0900] {processor.py:840} INFO - DAG(s) 'qna_bot_monitoring', 'qna_bot_hourly_check' retrieved from /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py
+[2025-07-14T16:13:45.700+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.699+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:qna_bot_monitoring
+[2025-07-14T16:13:45.702+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.702+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:qna_bot_monitoring
+[2025-07-14T16:13:45.704+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.704+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:qna_bot_monitoring
+[2025-07-14T16:13:45.708+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.708+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:qna_bot_hourly_check
+[2025-07-14T16:13:45.710+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.709+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:qna_bot_hourly_check
+[2025-07-14T16:13:45.711+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.711+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:qna_bot_hourly_check
+[2025-07-14T16:13:45.711+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.711+0900] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-07-14T16:13:45.715+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.715+0900] {dag.py:3118} INFO - Creating ORM DAG for qna_bot_hourly_check
+[2025-07-14T16:13:45.715+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.715+0900] {dag.py:3118} INFO - Creating ORM DAG for qna_bot_monitoring
+[2025-07-14T16:13:45.721+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.721+0900] {dag.py:3954} INFO - Setting next_dagrun for qna_bot_hourly_check to 2025-07-14 05:30:00+00:00, run_after=2025-07-14 06:30:00+00:00
+[2025-07-14T16:13:45.721+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:45.721+0900] {dag.py:3954} INFO - Setting next_dagrun for qna_bot_monitoring to 2025-07-12 18:10:00+00:00, run_after=2025-07-13 18:10:00+00:00
+[2025-07-14T16:13:45.728+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py took 0.129 seconds
+[2025-07-14T16:15:20.396+0900] {processor.py:161} INFO - Started process (PID=55831) to work on /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py
+[2025-07-14T16:15:20.398+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py for tasks to queue
+[2025-07-14T16:15:20.398+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:20.398+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py
+[2025-07-14T16:15:20.410+0900] {processor.py:840} INFO - DAG(s) 'qna_bot_monitoring', 'qna_bot_hourly_check' retrieved from /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py
+[2025-07-14T16:15:20.470+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:20.470+0900] {dag.py:3096} INFO - Sync 2 DAGs
+[2025-07-14T16:15:20.479+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:20.479+0900] {dag.py:3954} INFO - Setting next_dagrun for qna_bot_hourly_check to 2025-07-14 05:30:00+00:00, run_after=2025-07-14 06:30:00+00:00
+[2025-07-14T16:15:20.480+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:20.480+0900] {dag.py:3954} INFO - Setting next_dagrun for qna_bot_monitoring to 2025-07-12 18:10:00+00:00, run_after=2025-07-13 18:10:00+00:00
+[2025-07-14T16:15:20.486+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow/dags/qna_bot_monitoring_dag.py took 0.092 seconds

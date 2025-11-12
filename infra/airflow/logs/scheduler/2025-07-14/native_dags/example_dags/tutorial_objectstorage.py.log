@@ -1,0 +1,11 @@
+[2025-07-14T16:14:01.209+0900] {processor.py:161} INFO - Started process (PID=55647) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-07-14T16:14:01.210+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-07-14T16:14:01.211+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:01.211+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-07-14T16:14:01.234+0900] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-07-14T16:14:01.322+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:01.322+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2025-07-14T16:14:01.326+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:01.325+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2025-07-14T16:14:01.327+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:01.327+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2025-07-14T16:14:01.327+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:01.327+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:01.331+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:01.331+0900] {dag.py:3118} INFO - Creating ORM DAG for tutorial_objectstorage
+[2025-07-14T16:14:01.331+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:01.331+0900] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-07-14T16:14:01.338+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.131 seconds

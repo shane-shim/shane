@@ -1,0 +1,13 @@
+2025-10-27 01:10:32,314 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2025-10-27 01:10:32,315 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'print_access_token']
+2025-10-27 01:10:32,316 DEBUG    root            Running [gcloud.auth.print-access-token] with arguments: [--scopes: "['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/cloud-platform']"]
+2025-10-27 01:10:32,379 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2025-10-27 01:10:32,386 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-10-27 01:10:32,779 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2025-10-27 01:10:32,781 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2025-10-27 01:10:32,783 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-10-27 01:10:33,063 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2025-10-27 01:10:33,064 DEBUG    root            Chosen display Format:value(token)
+2025-10-27 01:10:33,064 INFO     root            Display format: "value(token)"
+2025-10-27 01:10:33,072 INFO     ___FILE_ONLY___ ya29.c.c0ASRK0GYwNkwkMX__5-2gcciicFFtPrFODJUkVm9G0gOh6u2MsR_Mg9gfA-8_M3qyjTpBpqDlyB5QT59MYu7gY1yxaWE0B7-FSCsDv-ZhNsY9PaLTw9XYUhiMplczgSjWH2auGImdAHkFwAYl5vpPCRWcBgtqgLF6Bv4Fe5n9BzZTCfSbIxxdhP5YNrfWl3JIHDXEElImswlk-TT9IDusdfRIBJSNQdxJcjFduQy1b7yApn1wAbuQmDlGqEyftGiWJJaA0_IpfVwELONqn37QEM4i2Aw-82w46EGxM1L7THKWOx8TMbJbl6RgZXSxhsBW6_kDAc3G2v6IDBu8xlNitH5leWB83YLC-aosFCEKhyOsb3oShRXL7Q8XQFMywpoT392D-tWq3gjorZ6wX4X0Mxhgdaahi7pJ03c9-BySyoQpiZ1zujy5W_3O0dimrnggqv7JMxMQx6i2l7g4a-VI3JlgRFnJt6xa_iupXknu9pupe3o-sja47FIa-t53XVZ7U05ksYW5vyhccIUwR88srx_9e2xr4YF1aivWmMRuX2U4vmQ-kFa2clqzeZpXigsaIQjriOcmxX_7a2YeRossmvY4veW6mwj9-JkZ_fo9tk_0meRbsccSkevpoofnId7igwWWU1_ljnz86UYjm-UmjaJrp9x8lOYXxdwqm9zmQI7vF8k3woIXtsBm2puo10prsdVyuxSrzcfnk1erlxq6y4ribn4R7R9wbYyt1xOS3FMI5sx1657zIob67bvj7X-xbevjpB78M7JF4ihvXduzhR6Re8cqQ7VsBpdQ4Iq2k5Iw8eSbcMFoYmOdf68ig-IneJzB68s95rtFIbJhZgybWssRg-S3skcki1Wxxgw-WSjijvasgvXpwOjU4qjBQZvJr_o2zM7ksBVrhvuYr_Y7l98ziRl3b64XymijYWBigJ6X98bv083UfuMd0mQ6lzc6jn0veUYJka-6Qk6tzMR0Uamjv8810y_JokudYqBbgg8s23W0OOsbIk2
+

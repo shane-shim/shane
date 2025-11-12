@@ -1,0 +1,12 @@
+[2025-07-14T16:14:35.282+0900] {processor.py:161} INFO - Started process (PID=55734) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-07-14T16:14:35.283+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-07-14T16:14:35.284+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.284+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-07-14T16:14:35.298+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.297+0900] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-07-14T16:14:35.298+0900] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-07-14T16:14:35.391+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.391+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2025-07-14T16:14:35.395+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.395+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2025-07-14T16:14:35.397+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.397+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2025-07-14T16:14:35.397+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.397+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:35.401+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.401+0900] {dag.py:3118} INFO - Creating ORM DAG for example_python_decorator
+[2025-07-14T16:14:35.401+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:35.401+0900] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-07-14T16:14:35.407+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py took 0.127 seconds

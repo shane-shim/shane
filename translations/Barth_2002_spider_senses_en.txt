@@ -1,0 +1,1097 @@
+DZG LECTURE
+Spider senses – technical perfection and biology* * 
+Friedrich G. Barth*
+University of Vienna, Biocenter, Institute of Zoology, Vienna, Austria
+Summary
+This essay deals with sensory biology in a broad sense. It takes mechanosensory systems of spiders to illustrate a few basic issues. Par-
+ticular attention is given to two aspects. 1. There is a remarkable “ingenuity” in the uptake and transformation of the adequate stimuli
+way out in the sensory periphery, which is reflected by an intimate relationship between the physical properties of the stimuli  and the
+characteristics of the structures receiving and transforming them. We need to understand the details of this relationship in or der to un-
+derstand the relationship of an organism to its environment. 2. Sensory systems represent interfaces between the environment and be-
+havior. As highly selective filters they have not evolved to provide abstract knowledge but to guide a particular behavior. The  signals
+sent to the central nervous system are meaningful only in regard to their behavioral significance. – Some details of stimulus t ransforma-
+tion in biological strain gauges (slit sensilla), airflow detectors (trichobothria) and touch receptors (tactile hairs) are described. Some of
+the refinement in the periphery is then meshed with the behavior of the whole organism. In this way the value shall be underlined of try-
+ing to understand reductionist details as building blocks of the complexity which enables an organism to behave in its own part icular
+way in its species specific environment.
+Key words : Sensory biology, neuroethology, biotechnology, mechanoreception, arthropods
+animal kingdom. This of course also applies to spiders,
+a large group of about 40,000 described species with re-
+markable ecological success. A considerable part of
+this success must be attributed to highly developed sen-
+sory systems which are the result of about 400 million
+years of evolution. The complex behavioral patterns
+shown by spiders are unthinkable without the spiders’
+armament of sensors. 
+Compared to such a long evolutionary history, the
+roughly 35 years of my own preoccupation with spiders
+of the genus Cupiennius are just a nano-flash in time.
+Yet this flash has brought to light fascinating details of
+spider sensory systems and their behavioral roles and
+has at the same time taught us a lot about more general
+0944-2006/02/105/04-271 $ 15.00/0
+No life without sensing
+Sensors and sensing are fundamental properties of all
+living beings, from protists and indeed bacteria to man.
+Life without them is hardly possible because behavior
+needs guidance by them. Neither reactions to changes
+in the environment outside the organism nor to changes
+in its inside would be possible. Without them, life
+would not “make sense” anymore and the lost capabil-
+ity of homeostasis would have fatal consequences. Sur-
+vival and securing the genes for the next generation
+could no longer be the fundamental achievements of
+living beings. Accordingly, one finds a fascinating rich-
+ness and diversity of sensory systems throughout the
+*Corresponding author: Friedrich G. Barth, University of Vienna, Biocenter, Institute of Zoology, Althanstr. 14, A-1090 Vienna,
+Austria; phone: +43-1-4277 54470; fax: +43-1-4277 54507; e-mail: friedrich.g.barth@univie.ac.at
+**Karl Ritter von Frisch-lecture presented at the 95. Annual Meeting of the Deutsche Zoologische Gesellschaft in Halle, May 22,  2002Zoology 105(2002): 271–285
+© by Urban & Fischer Verlag
+http://www.urbanfischer.de/journals/zoology
+
+
+Fig. 1.Cupiennius salei (Keyserling, 1877), adult female (leg
+span about 10 cm). (A)Ventral view with typical black annular
+patterns on the femora, broad black median stripe on the opistho-
+soma and terra-cotta red hairs on the coxae (photograph kindly
+provided by Raphael Barth). (B) Spider injecting venom into
+a grasshopper caught on a bromeliad only seconds before the
+photograph was taken (near Cordoba, Mexico; from Barth, 2001).issues in biology. It enabled us to have at least a
+glimpse at the order which meshes elemental principles
+of some sensory systems with the whole organism at
+different levels of function, and it helped us to under-
+stand at least a few reductionist details as building
+blocks of the complexity which is the core of neu-
+roethology. 
+Cupiennius , the priceless spider 
+Spiders of the genus Cupiennius mainly live in Central
+America. Eugène Simon (1848–1924), the famous
+French arachnologist, established the genus in 1891.
+Cupiennius salei (Fig. 1), the most popular in our re-
+search among the nine described species (Lachmuth
+et al., 1984; Barth and Cordes, 1998), was first col-
+lected by Monsieur Salé near Cordoba and Veracruz
+in Mexico. Graf Eugen Wilhelm Theodor von Keyser-
+ling (1832–1889) described the now lost holotype as
+Ctenus salei in 1877 (Keyserling, 1877). Today,
+C.saleistill can be found near Cordoba. Actually, we
+did much of our field work in this area. It seems like a
+nice coincidence of history that now, 125 years after
+its first description in the Proceedings of the Zoolo-
+gisch-Botanische Gesellschaft in Vienna, it is at
+Vienna University that C. salei(and other species of
+the genus) has been bred by the hundreds since 1987,
+when we brought our colony with us from Frankfurt.
+Among the prominent features of C. salei is its close
+association with plants (mainly monocots) on which it
+hides during the day in retreats in between the leaves
+and preys and courts at night. Cupiennius forms a
+genus of hunting or wandering spiders which do not
+live in a spider web or build a web to catch prey like
+the familiar orb weavers or funnel web spiders.
+C.saleiis a large night active spider with a leg span of
+about 10 cm, as are its close relatives C. getazi and
+C.coccineus (Barth, 2001) . All of these species can
+be bred in large numbers and all year round in the
+laboratory far away from their homeland, which is
+one of the keys to their “success” as priceless research
+animals.
+It remains unclear why Eugène Simon chose Cupiennius as the
+name for the genus to which the spider collected by Mr. Salé in
+Mexico now belongs. Most likely he was a highly educated
+researcher who knew the satires (called sermones by its author) of
+Quintus Horatius Flaccus, the famous Roman writer (65–8 BC).
+In sermon I 2, 36 Horatius mentions Cupiennius Libo from
+Cumae who is said to have been a good friend of Emperor Augus-
+tus. From Pomponius Porphysio, the antique commentator of
+Horatius, we learn: Gaius Cupiennius Libo Cumanus Augusti
+familiaritate clarus corporis sui diligentissimus fuit sectator
+matronarum concubitus. The relation between the reputation of
+Cupiennius of being a voluptuous adulterer and “Matronenjäger”
+and our spider remains enigmatic.Using only a few selected examples, the following
+essay strives to shortly illustrate two aspects related to
+the “sense of senses”. One is about the sensory periph-
+ery, the other about behavior. 
+(1) The uptake of the adequate stimuli very often shows
+a remarkable ingenuity and efficiency and again and
+again demonstrates how many clever ways nature has
+found to solve “technically” difficult problems. There
+272F. G. Barth 
+Zoology 105(2002) 4
+
+
+is a wealth of biologically applied physics and engi-
+neering seen in the intimate relationship between the
+properties of the stimulus and the properties of the
+structures receiving and transforming it. In many cases,
+knowledge of this relationship way out in the sensory
+periphery substantially contributes to our understand-
+ing of the relationship between an entire organism and
+its species specific environment. 
+(2)The second aspect to be illustrated here is as trivial
+as it is important. Sensory systems and the sense they
+make remain inconceivable without considering behav-
+ior. On the contrary: the senses are the interfaces be-
+tween the environment and behavior. The signals pro-
+vided for the central nervous system by the sensors only
+become information by their ethological meaning. Sen-
+sory systems have evolved to permit particular behav-
+iors. These have to be taken into account if we strive for
+a full understanding of what the sensors have to tell the
+brain.
+The well “engineered” sensory periphery
+Slit sensilla – biological strain gauges 
+Slit sensilla (Fig. 2A) may be called biological strain
+gauges. They are “embedded sensors” in engineering
+terminology and closely related to a particular sensory
+function of the spider exoskeleton. When the exoskele-
+ton is subjected to mechanical loads from internal
+sources like muscular activity or hemolymph pressure
+(Fig. 2B), or from external sources like substrate vibra-
+tion, the forces entail strains in the cuticle. In other
+words, the cuticular material will be slightly deformed.
+There are roughly 3,500 slit sensors embedded into the
+exoskeleton of Cupiennius salei , mainly on the legs,
+which are capable of measuring such deformations (re-
+view: Barth, 2001).
+These deformations are minute. This is easily under-
+stood in case of fully sclerotized exocuticular material
+whose modulus of elasticity (Young’s modulus; in the
+order of 18 GPa, spider leg tibia) resembles that of
+bone. In more practical terms that means that on the
+tibia, to take an example, strains in the order of 20 µm
+(ppm; under load the original length l oof a piece of ma-
+terial changes by a factor of 20 ×10–6) occur during lo-
+comotion and effectively stimulate spider slit sensilla,
+provided they are compressional strains (negative ten-
+sion) (Blickhan and Barth, 1985). The tiny slits in the
+exoskeleton (width less than 2 µm, length from about 8
+to 200 µm) send off action potentials, when compressed
+by a few Ångström units (10–8cm) only. This remark-
+able sensitivity tells us that the relationship between the
+properties of the stimulus and the morphology and
+position of the slits in the exoskeleton must be a very
+273Spider Senses
+Zoology 105(2002) 4close one. For its deeper understanding, knowledge is
+needed of the size, the sign, and the course taken by the
+lines (trajectories) of principal stresses under natural
+stimulus conditions at the site of the sense organs. The
+organs examined in this way are indeed found in areas
+of compressional forces and are oriented roughly at a
+right angle to them, which implies maximum mechani-
+cal sensitivity (Fig. 2C; Barth and Pickelmann, 1975;
+Blickhan and Barth, 1985). Considering the directional
+properties of slit sensilla, the logic can be turned around
+and the sign and orientation of strain trajectories pre-
+dicted at a particular site from the orientation of the
+slits. 
+A characteristic feature of slit sensilla is their occur-
+rence as compound organs, forming arrays of up to 29
+slits in close parallel arrangement. The advantages
+gained by such arrays over single slits seem to hide the
+most advanced features of “mechanical engineering”
+exhibited by the slit sensilla. This is at least partly par-
+alleled by physiological refinement and differentiation
+among the slits. We do not know enough yet about this,
+but the exemplary examination of lyriform organs al-
+ready demonstrated differences in threshold compres-
+sion, a considerable enlargement of the working range,
+in particular the range of high differential sensitivity,
+and a remarkable influence of the detailed pattern
+formed by the parallel slits on their mechanical proper-
+ties (deformability by cuticular strains under load), in-
+cluding their directional sensitivity (Barth and Bohnen-
+berger, 1978; Bohnenberger, 1981; Barth et al., 1984;
+review: Barth, 2001). One of the lyriform organs is ex-
+ceptional with regard to its orientation perpendicular to
+the leg’s long axis and its dorsal arrangement, bridging
+a furrow in the exoskeletal cuticle distally on the
+metatarsus. This nicely shows us how crucial details of
+arrangement may be in a strain measuring sensory sys-
+tem. The features mentioned above make this organ a
+very sensitive vibration detector responding to sub-
+strate vibrations down to 10–6to 10–7cm. This is the
+same order of magnitude as found for the vibration de-
+tectors of cockroaches (so far considered the champi-
+ons), crickets, and other insects and indeed also in the
+range of the “hair” deflection in the hair cells of the ver-
+tebrate inner ear. The spider metatarsal vibration recep-
+tor also nicely reveals, how successfully evolution dealt
+with the mechanics offered by the exoskeleton for a
+sensory system representing biological strain gauges. 
+Trichobothria – hairs that catch the wind
+A close look at the surface of a spider such as Cupien-
+nius salei brings to light an astonishing finding. There
+are several hundred thousands of innervated cuticular
+hairs and up to about 400 such hairs per mm2(Fig. 3A).
+Almost all of them are mechanically sensitive. Sensory
+
+274F. G. Barth 
+Zoology 105(2002) 4
+Fig. 2. Slit sensilla . (A)Left:
+Loosely arranged group of slit sen-
+silla and lyriform organ (arrow) on
+the trochanter of a walking leg.
+Right:Lyriform or compound organ
+on trochanter (after Barth 2001). (B)
+The main sources of the strains in
+the exoskeleton measured by the slit
+sensilla are hemolymph pressure
+and muscular forces. Top: Lacunae
+in the tibia forming well defined
+channels for the fast transport of
+hemolymph during joint move-
+ments. Middle: Arrangement of
+flexor muscles in the spider leg tibia
+(Ti); Papatella, MeMetatarsus; Fl
+flexor, Prpromotor. Bottom: Ten-
+sion and pressure lines in a model
+tibia under quasi-natural load (simu-
+lating muscular forces introduced
+through the condyli during flexion
+of the joint). Arrow points to lyri-
+form organ HS-8 laterally on the
+tibia in an area of pressure (negative
+tension, broken lines). Ventral part
+of distal tibia characterized by ten-
+sion (continuous lines). (C)Left:
+Strains at the site of lyriform organs
+can be measured in vivo by attach-
+ing miniature strain gauges onto the
+cuticle. Right:Top, during flexion
+of the metatarsus (ME) negative
+strains at the lateral sites of organs
+HS-8, HS-9 and VS-4 compress and
+thus effectively stimulate, whereas
+the ventral organ VS-5 is in an area
+of positive strain and not stimulated.
+During leg extension the situation
+reverses. Middle and bottom, strains
+at organs HS-8 and VS-5 during one
+step in a freely walking spider. Dark
+shading of bar above graphs indi-
+cates stance phase (stimulation of
+HS-8), light shading indicates swing
+phase (stimulation of VS-5; after
+Barth and Pickelmann, 1975; Blick-
+han and Barth, 1985).
+
+cells ending at their respective base are adequately
+stimulated by the deflection of the hair shaft.
+The so-called trichobothria (analogous to insect fili-
+form hairs) of spiders are medium flow sensors (Fig.
+3B). They respond to the slightest movement of the sur-
+rounding air, as for instance produced by a potential
+prey animal flying by (reviews: Barth, 2000, 2001).
+Considering their mechanical sensitivity, trichobothria
+represent an extreme case within the spectrum of
+mechanosensitive hair sensilla. Their hair shaft is taken
+along by the frictional forces exerted by the slightest air
+flow. According to recent analyses, both cricket fili-
+form hairs (Shimozawa et al., 2002) and spider tri-
+chobothria (Humphrey et al., 2002) are the champions
+among all known bio-sensors in regard to absolute sen-
+sitivity. Physically exact calculations of the work driv-
+ing a trichobothrium over one oscillation cycle yielded
+values down to 2.5 ×10–20Ws (Joules). This value cor-
+responds to a fraction of the energy contained in one
+quantum of green light. For cricket filiform hairs evenvalues in the order of 10–21Ws have been determined
+(Thurm, 1982; Shimozawa et al., 2002) for an oscilla-
+tion cycle at 5 Hz and maximum deflection at sensory
+threshold roughly corresponding to 1/100 of the energy
+of a single photon. The obvious conclusion is the same
+as in case of the slit sensilla: Such an exquisite sensitiv-
+ity rests on an intimate interaction and coupling be-
+tween the moving air and hair.
+Again, much of the extremely “well engineered” pro-
+cesses of stimulus uptake and transformation can be un-
+derstood by interpreting them as reflections of the
+physics of the stimulus. In the given case this means
+that one has to consider fluid mechanics. A trichoboth-
+rium can be represented by an inverted pendulum and
+much of its quantitative understanding rests on Stokes’
+now classical analysis of “the effect of the internal fric-
+tion of fluids on the motion of pendulums” dating back
+to 1851. Figure 4 left and center shows some of the key
+parameters to be taken into account. Whereas the hair is
+deflected by torque T(Nm), which is due to the viscous
+forces of the medium flow, both S(Nm/rad) and R
+(Nms/rad) oppose deflection, Srepresenting the elastic
+restoring force and Rthe viscous damping. Among
+other things, the mathematical modeling informs us
+about the significance of the mass of the hair shaft, its
+length, diameter and surface structure as determinants
+of mechanical sensitivity. Thus, it turns out that the sen-
+sitivity of the range of best frequencies is particularly
+large with regard to hair length L. In other words: If one
+was to modify or adjust the tuning in a corresponding
+artificial sensor, one would primarily do this by chang-
+ing L, and only secondarily by adjusting Rand S(Barth
+et al., 1993; Humphrey et al., 1993, 2001). Interest-
+ingly, this is what we find in the trichobothria. Typi-
+cally, these form groups of hairs with lengths between
+about 0.1 mm and 1.5 mm and with corresponding best
+frequency ranges between about 40 Hz and 600 Hz.
+Compared to an individual hair, a group of hairs just
+slightly differing in length represents a set of bandpass
+filters which enlarges the range of high sensitivity con-
+siderably. Mathematical modeling also permits predic-
+tions regarding adaptive evolution, that is to say it helps
+us to understand how evolution can play the keyboard
+of parameters at its disposal (Humphrey et al., 2001).
+The main reason for the dependence of frequency tuning
+on hair length is not primarily due to the implicit differ-
+ences in mass (long hairs being more sensitive to low
+frequencies and short hairs to higher ones) or in the elas-
+tic restoring force. Instead, there is a special relationship
+between the lowerend of the bandpass characteristics of
+a trichobothrium and the boundary layer. This is a zone
+of reduced medium flow velocity in the immediate
+vicinity of surfaces within the flow, like the body sur-
+face of the spider. Boundary layer thickness increases
+275Spider Senses
+Zoology 105(2002) 4Fig. 3.Hair sensilla ( C. saleifemale). (A)Ventral view of proxi-
+mal leg segments; note dense cover of cuticular hairs mainly serv-
+ing mechanosensory functions. (B) Tarsus of a walking leg; note
+trichobothria (length up to 1.4mm) dorsally on the tarsus with
+bend of distal part of their hairshaft (from Barth, 2001).
+
+
+with decreasing flow frequency. According to direct
+measurements with the laser anemometer, the length of
+the trichobothria is in the range of boundary layer thick-
+ness. Using an oscillating airflow, the thickness of the
+boundary layer above the spider leg varied roughly from 
+2.600 µm to 600 µm over the range of 10 Hz to 959 Hz
+(Barth et al., 1993). The consequence is the following:
+At low frequencies short hairs “get stuck” in the zone of
+reduced particle velocity, whereas long hairs are ex-
+posed to the higher velocities found at a larger distance
+from the surface. The upperfrequency end of the band-
+pass properties of a trichobothrium is due to the inertia
+of the hair shaft and of the virtual mass moved along
+with it. The moment of inertia increases by a factor of
+103 with hair length and the hair becomes increasingly
+immobile with increasing frequency.
+Tactile hairs – not just rigid pencils
+The large majority of the numerous cuticular hairs cov-
+ering the spider exoskeleton does not serve the detec-
+tion of air movement. Instead, most of the hairs are tac-
+tile hairs, contrasting the trichobothria and nicely illus-
+trating the potential contained in the seemingly simple
+“Bauplan” of an arthropod sensory hair. 
+When deflected by the viscous forces of the air flow
+around them, trichobothria do not bend. The main rea-son for this is the extremely low elastic restoring force
+at their articulation. In trichobothria spring stiffness S
+is of the order of 10–12Nm/rad. As a result, the forces
+acting on flow sensors are too small to bend the hair
+shaft to any relevant degree. The hair parameters domi-
+nating the mechanical behavior are mass Mand tor-
+sional inertia I(Fig. 4 center). In the tactile hairs exam-
+ined by us, the situation is radically different due to a
+difference in a few parameters only. In tactile hairs
+spring stiffness Smeasures about 10–8Nm/rad. It is
+larger by about four powers of ten than in case of the
+flow sensors. Due to the forces needed to overcome
+this stiffness, the hair is not only deflected but also bent
+by the stimulus (Fig. 4 right). As a consequence,
+Young’s modulus Eand the second moment of area J
+along length Lof the hair shaft are the mechanically
+dominant features (whereas Mand Imay be neglected
+due to the relative size of the stimulating force; Barth
+and Dechant, 2002).
+In most cases of the touch receptors we examined stim-
+ulation will be from above. When touched by an object
+from above, the hair shaft is pushed down and bent. It
+turns out that the hair shaft is a surprisingly “clever”
+stimulus transmitting structure. The point of load intro-
+duction increasingly shifts towards the hair base with
+increasing load and deflection. Accordingly, the effec-
+tive lever arm and the stimulating moment decrease
+276F. G. Barth 
+Zoology 105(2002) 4
+Fig. 4.Arthropod mechanosensory hair sensilla.Left: Schematic representation of parameters to be considered; Llength and ddiameter
+of hairshaft, Rfrictional resistance and Storsional restoring constant or spring stiffness of articulation. Center:Hair sensitive to airflow
+like trichobothrium or insect filiform hair. Deflection ( Θ) is by viscous forces ( T, torque). Sis very small and as a consequence the hair-
+shaft is not bent by the stimulus. Right:In spider tactile hairs the articulation is much stiffer than in trichobothria, with values of Slarger
+by about four powers of ten. Thus a tactile hair is both deflected and bent by the stimulus (from above). The hair parameters mainly to
+be considered in order to understand hair mechanics are mass Mand its torsional inertia Iin case of the flow sensors and Young’s mod-
+ulus Eand the second moment of area Jalong the length Lof the hairshaft in case of tactile hairs (after Barth and Dechant, 2002).
+
+Fig. 5.Bending of a spider tactile
+hair by mechanical stimulation from
+above. Above: With increasing load
+(see force vectors, which are not
+drawn to scale) and hair deflection
+the effective lever arm represented
+by the hairshaft shortens. Below:
+According to finite element simula-
+tion and following microscopical
+observation of the hair’s bending
+behavior the bending moment in-
+creases more slowly with increasing
+load (see red curve). The dotted
+green line shows how much faster
+the moment would increase in case
+of a hair not bending under load
+(constant lever arm; after Dechant
+etal., 2001).
+with increasing loading force. The largest bending mo-
+ment equals only about 20% of that to be expected for a
+rigid hair (Fig. 5). Remarkably, due to its bending, the
+hair shaft never is deflected by more than about 12° at
+its base. Similarly, the bending moment increases much
+more slowly with large loading forces than with small
+ones and reaches saturation at about 4 ×10–9Nm. What
+does that mean in more practical terms? First, the hair
+is protected against breaking. S econd, the hair’s me-
+chanical working range is considerably extended as
+compared to a rigid hair. Third, the mechanical sensitiv-
+ity is higher for small deflections than for large ones
+(ca. 5 ×10–5N/° as compared to ca. 1 ×10–4N/°),
+which goes along with a corresponding relative de-
+crease of the moment at the hair base with increasing
+stimulus load.
+Finite element analysis (Dechant et al., 2001) brought to
+light even more evidence of “clever engineering”. Axial
+stresses (the major stress component) in the hair due to
+its bending reach values of up to ca. 3 ×105N/m2. Max-
+imum stress values remain largely the same although the
+loads introduced at the different contact points differ
+considerably during a loading cycle. In other words, thehair shaft is a structure of equal maximal strength which
+implies that critical stress values are successfully
+avoided by a corresponding adjustment of the hair’s
+cross section (and thus J) along its length. Several re-
+gions of the hair shaft with differing mechanical proper-
+ties can indeed be distinguished (Dechant et al., 2001).
+Micromechanical refinement in the smallest detail!
+No sense in senses without behavior 
+When trying to understand sensory systems, one must
+never forget that for the animal the “goal” is not ab-
+stract knowledge but survival and reproduction. The
+sense of senses is not in their technical perfection per
+se, as fascinating as their “design” may be. In the last
+instance the sense of senses is in the biological meaning
+of the nervous signals which result from highly selected
+and filtered stimuli. It is the relation to a particular be-
+havior which qualifies these signals as information.
+In the following this shall be illustrated with a few ex-
+amples not taken from the brain but from the sensory
+cells far out in the periphery.
+277Spider Senses
+Zoology 105(2002) 4
+
+
+Prey capture 
+Cupiennius is a nocturnal sit and wait predator. Shortly
+after sundown, when the light intensity has fallen to
+about 15 lux, it turns around and leaves its retreat, typi-
+cally staying nearby for about half an hour until, to the
+human eye, it has become completely dark. Then, at a
+light intensity below 0.1 lux, Cupiennius walks onto a
+leaf where it sits fully exposed in wait for prey. By this
+time the wind has died down and insects start emerging
+from their hiding places. When Cupiennius slightly
+raises its body the experienced observer knows that it
+has noticed potential prey like a cockroach or a
+grasshopper, crawling around on the plant at a distance
+of half a meter or more. When the victim is within
+reach, it is overwhelmed within a few hundred millisec-
+onds (Fig. 1B). Evidently, this behavior is based on a
+substantial amount of sensory information.The most
+important clues telling the spider about the presence
+and location of prey are transmitted through the plant
+and air, respectively: (1) Substrate vibrations like those
+produced by a cockroach while walking around on the
+plant; (2) air movements like those produced by an in-
+sect while passing by in flight (reviews: Barth, 1998,
+2001). How does Cupiennius recognize the biologically
+meaningful prey signal and distinguish it from back-
+ground noise?
+Substrate vibrations
+According to the measurement of vibrations on their
+dwelling plants in the field, the spiders are exposed to
+three types of vibrations which differ in regard to thespectrum of the frequencies the vibrations contain 
+(Fig. 6). ( a) “Abiotic” vibrations caused by windare
+characterized by very low frequencies, usually with a
+peak well below 10 Hz. The spectrum is very narrow.
+Often there are no components above 10 Hz, and if pre-
+sent they are smaller by 40 to 60 dB than the main peak.
+(b) Quite in contrast to the wind induced vibratory back-
+ground, preysignals such as those produced by a cock-
+roach are “noisy”, that is to say that they are broad-band
+and contain higher frequency components. Their domi-
+nant peaks are between 400 Hz and 900 Hz and the
+–20dB frequency bands extend from a few Hz to ca.
+900 Hz. (c) The male vibratory courtship signals, which
+will be considered more extensively below, are charac-
+terized by their regular temporal structure with syllables
+produced in sequences of up to 50 at intervals of about
+350 ms. The most prominent frequency components are
+close to 100 Hz, roughly between “wind” and “prey”.
+The female courtship vibrations lack the syllable struc-
+ture and are temporally more irregular than the male sig-
+nal, with a broader frequency spectrum and the main
+components between 20 Hz and 50 Hz. 
+According to numerous experiments, the spiders do in-
+deed distinguish between vibrations caused by wind,
+prey, and the sexual partner, respectively. There is also
+good evidence that they actually use the above-men-
+tioned characteristics to accomplish this. In the present
+context, this implies that prey-catching behavior can be
+elicited significantly more often with broad-band sig-
+nals than with sine wave vibrations. The results of neu-
+rophysiological experiments are consistent with this.
+The sensory cells of the metatarsal vibration receptor
+278F. G. Barth 
+Zoology 105(2002) 4
+Fig. 6.The vibrational environ-
+ment of Cupiennius in its natural
+habitat when sitting on its dwelling
+plant. Left:oscillograms, right:fre-
+quency spectra of typical signals.
+From top to bottom: male courtship
+vibration, prey (cockroach) crawl-
+ing on the plant, and vibrations due
+to wind (after Barth, 1986).
+
+are significantly more sensitive (by as much as about
+10 dB) to narrow-band vibrations (bandwidth 1/3 oc-
+tave, Q = 0.35) than to pure sinusoidal stimulation. The
+same applies to vibration sensitive interneurons in the
+CNS, where the difference can be as great as 20 dB
+(Speck-Hergenröder and Barth 1987). Another argu-
+ment supporting the idea that peripheral sensory filter-
+ing reflects behavioral needs, is provided by the shape
+of the threshold curves of the slits of the metatarsal
+organ. The slits all behave like high-pass filters.
+Whereas they are relatively insensitive up to about 40
+Hz (in some slits only 1 Hz or 20 Hz), their sensitivity
+increases rapidly towards higher frequencies. In more
+practical terms this means that at low frequencies the
+tarsus must be displaced by 10–2to 10–3cm in order to
+elicit a response, while at higher frequencies this value
+falls by up to 40 dB per decade, reaching 10–6to 10–7cm
+(10 Å) at 1 kHz (Barth and Geethabali 1982). All avail-
+able information suggests that the primary sensory
+cells block the low frequencies typical of background
+vibrations. They seem to be the first part of a neuronal
+two-stage filter and followed by vibration sensitive
+interneurons which in all our experiments invariably
+showed threshold curves with a well pronounced opti-
+mum in the low (ca. 100 Hz), middle or high frequency
+range, picking out the biologically relevant signals
+from the mixture of frequencies contained in a vibra-
+tory stimulus (Barth, 1998).
+The remarkable absolute sensitivity of the spider vibra-
+tion receptor as such is of course not only of academic
+interest, but highly relevant in regard to the range of a
+sensory system. Here is another parameter in the sen-sory periphery relevant for our understanding of behav-
+ior. When knowing ( a) the intensity and frequency
+components of the natural signals originally emitted
+and (b) the transmission properties of typical “ Cupien-
+niusplants” in addition to the threshold curves of the
+primary sensory cells, the range of vibratory signals can
+be determined. This was done in some detail with re-
+gard to the vibratory signals used by Cupiennius to
+communicate during courtship (reviews: Barth, 1997,
+2001). The distance record for courtship communica-
+tion in the field so far is 3.8 m. It was measured in
+Costa Rica with a male and female C. coccineus sitting
+on a banana plant. Such remarkable distances to a large
+degree rely on the fact that the metatarsal organs of spi-
+ders are among the most sensitive vibration receptors in
+the animal kingdom.
+Air movements
+In Cupiennius (unlike in orb weavers which need web
+vibrations as indicators of an insect caught in the web
+and thus approachable) prey-catching behavior can be
+easily elicited by air movements alone. A hungry spider
+jumps towards a buzzing fly held by the experimenter
+nearby (Fig. 7). In the wild, why doesn’t the spider ever
+jump into the air and try to catch the ever present wind?
+To answer this question one first needs to know in more
+detail the kind of airflow fields Cupiennius encounters
+in its habitat. It will then turn out that properties of the
+sensory periphery again reflect properties of biologi-
+cally relevant stimuli. 
+When darkness has fallen and Cupiennius has left its
+retreat to prey, typically the air is still warm and damp
+279Spider Senses
+Zoology 105(2002) 4
+Fig. 7.Airflow stimuli and prey
+capture behavior. Left: Sequence of
+video frames showing the spider’s
+reaction to the airflow produced by a
+fly flying on a leash (modified from
+Brittinger 1998). Middle: Spectra of
+the airflow signal behind a tethered
+flying fly at increasing distance from
+the fly (modified from Barth and
+Höller, 1999). Above right: Charac-
+teristic spectrum of airflow mea-
+sured above the spider sitting on its
+dwelling plant after sundown (after
+Barth et al., 1995).
+
+but the air movement is much slower than during day-
+light and also much steadier with a prominent reduc-
+tion of the likelihood of gusts (Fig. 7). Measurements
+of the wind above spiders waiting for prey on their
+customary plants in Costa Rica during their nighttime
+activity period reveal ed the following. Flow velocities
+typically are below 0.1 m/s and r.m.s. values (as a mea-
+sure of fluctuations) below 15%. Velocities of up to 
+0.4 m/s were only observed rarely. The background flow
+is dominated by frequencies below 10 Hz and character-
+ized by a remarkably narrow frequency spectrum (Barth
+et al., 1995), strongly reminding of the abiotic plant vi-
+brations (Fig. 6). One important advantage that Cupien-
+niusobtains by being active at night becomes obvious
+when the characteristics of the background flow are
+compared to those of a typical prey signal.
+Taking the fly signal as an example, which so promptly
+elicits prey capture behavior, the following properties
+are likely to be typical features of airborne prey signals
+in general. The downward directed airstream represent-
+ing the fly signal reaches velocities of up to about 
+1 m/s, 4 to 7.5 cm behind and below the fly. The fluctu-
+ations in local mean velocity are of the order of 25%,
+but sometimes up to 56%, as compared to 2 to 3% of
+the undisturbed background. The frequencies produced
+by the fly are in the region of 100 Hz. However, the
+proportion of high frequencies in the spectrum rapidly
+changes with distance. At a distance of 25 to 30 cm
+from the fly the spectrum of the airflow very much re-
+sembles that of the background flow (Fig. 7; Barth and
+Höller, 1999).
+Remarkably, this is also the distance at which Cupien-
+niusdoes not react with approach behavior to the air-
+flow signal of a fly anymore. The maximal distances
+from which a reaction can be elicited depend on the
+exact position and orientation of the signal source and
+vary between about 17 and 27 cm. The spider “sees”
+with its trichobothria equally well in all horizontal di-
+rections (Brittinger, 1998; Barth 2001). This nicely cor-
+responds to the distributed arrangement of the flow sen-
+sors on the legs and pedipalps all around the spider’s
+body. After ablation of the trichobothria Cupiennius
+does not react anymore. 
+The “mechanical” range of a single trichobothrium
+(taking the deflection of its shaft as a measure) when
+stimulated with the fly signal also used in the behav-
+ioral experiments, is 50 to 70 cm. Its “physiological”
+range (indicated by the discharge of action potentials)
+agrees with this finding. Why then is it that the spider
+does not jump towards a fly more than about 25 cm
+away? We assume that the spider recognizes the
+changes in the signal which occur with increasing dis-
+tance from the signal source. At a distance of 25 cm the
+airflow resembles background flow and thus has lost its
+behavioral significance. In addition, a signal from thatfar away has taken several seconds to arrive at the spi-
+der, so that an attempted prey capture hardly has a
+chance of success. It would probably also take the spi-
+der too long to approach the prey.
+Physiologically, the receptor cells of single trichoboth-
+ria are tuned to a frequency range between 50 and 120
+Hz (in the coresponding experiment the hair is directly
+coupled to a vibrator) which agrees with important
+components of the air currents produced by flying in-
+sects (Barth and Höller, 1999). Remarkably, this is in-
+dependent of trichobothrium length. The differences in
+frequency tuning of hairs of different length found
+under natural stimulus conditions (ranges between 40
+and 600 Hz) are mainly due to reasons of fluid mechan-
+ics (see above). 
+Apart from their frequency tuning and absolute sensi-
+tivity, it is the strictly phasic response behavior of the
+trichobothria which seems to reflect properties of the
+biologically relevant stimuli. Trichobothria are velocity
+(and acceleration) sensitive, which is no surprise when
+considering that it is the frictional forces in the airflow
+which drive them. The receptor cells exclusively re-
+spond to the movement of the hairs, not however to
+static deflection. Likewise, interneurons in the spider
+CNS were found to predominantly respond to the sud-
+den increases of flow velocity (Friedel and Barth,
+1997). Remembering the properties of the prey signal,
+we conclude that the trichobothrial system is excel-
+lently suited to encode its characteristic highly fluctuat-
+ing time course. According to the responses of primary
+sensory cells like that shown in Figure 8, this is indeed
+the case.
+Courtship
+In Cupiennius the time the male and the female spend
+together is less than one hour. After this period the sex-
+ual partners go their separate ways as before. Their
+brief meeting, however, is full of ingenious mecha-
+nisms which together ensure reproduction. On the way
+to copulation it is again the vibration sense which plays
+a prominent role because there is a highly developed vi-
+bratory communication between the sexes (review:
+Barth, 1997, 2001). 
+Communication is initiated by the female. Her dragline
+contains a sexual pheromone identified as the S-
+dimethyl ester of citric acid (Tichy et al., 2000; Schulz
+et al., 2000). When the male encounters a female
+dragline on his nocturnal wanderings, he examines it
+carefully with the chemoreceptive hairs on his pedi-
+palps, assumes the courtship posture (slightly raising
+his body), and finally starts to produce vibrations by os-
+cillatory up-and-down movements of the opisthosoma.
+The substrate vibrations thus induced in the plant
+through the legs are propagated through the plant as
+280F. G. Barth 
+Zoology 105(2002) 4
+
+bending waves. Their mean attenuation of about 
+0.3 dB/cm is comparatively small, an important reason
+being that they are of low frequency. As a consequence,
+the male vibrations reach the female at surprisingly
+long distances. The maximum so far observed by us on
+a banana plant in Costa Rica was 3.8 m. The female re-
+sponds to the male with her own vibrations within a
+narrow time window of about 1 s (Fig. 9). After having
+received the presumptive partner’s signal, the male
+starts approaching the female while their reciprocal vi-
+bratory “flirting” continues.
+As mentioned earlier, the male opisthosomal vibratory
+signals are characterized by a distinct temporal pattern
+which not only sets it apart from background and prey
+vibrations but also plays a crucial role in species identi-
+fication by the female and thus in reproductive isola-
+tion. Accordingly, the temporal (not so much the spec-
+tral) patterns of the male vibratory signals are species
+specific. In C. salei, individual packets of up to 50 syl-
+lables are separated by silent pauses lasting up to 10 s.
+On average, syllable duration is 100 ms and pause dura-
+tion in between successive syllables is 250 ms. In
+species living sympatrically like C. getazi and C. coc-
+cineusthe relevance of reproductive isolation is obvi-
+ous. Hence, courtship signals of the spider’s own
+species must be distinguished not only from prey andbackground vibrations, but also from the courtship vi-
+brations of other Cupiennius species. 
+After having demonstrated behaviorally that Cupien-
+niuscan indeed do this and after having identified vari-
+ous properties of the female releasing mechanism, the
+question was, how the female vibration receptor re-
+sponds to the male signal and, more precisely, how well
+the temporal patterns are encoded by it. As it turns out,
+the metatarsal organ is well tuned to certain parameters
+of the male signal and there is considerable filtering
+which in some importants respects closely matches the
+results of behavioral experiments (Baurecht and Barth,
+1992, 1993).
+Amplitude
+The stimuli reaching the metatarsal organ vary greatly
+in amplitude. This is not only due to the varying vigor
+of the signal sender, but also to varying geometric and
+other conditions of stimulus transmission to the female
+receiver through the plant. As was to be expected from
+this, signal amplitude is among the less influential sig-
+nal parameters in behavior. Likewise, individual slits of
+the metatarsal vibration receptor can cover the entire
+natural range of acceleration amplitudes of about
+3–1000 mm/s2. They accomplish this by a logarithmic
+relationship between syllable acceleration amplitude
+281Spider Senses
+Zoology 105(2002) 4
+Fig. 8.Response of trichobothrium
+to airflow stimulus produced by fly-
+ing fly (see Fig. 7). Top:Arrange-
+ment of trichobothria on walking
+leg of Cupiennius salei . The exam-
+ined trichobothrium belongs to
+group D1. Middle:The fly signal
+given as airflow velocity. Bottom:
+Response (original recording of ac-
+tion potentials and discharge fre-
+quency) of one of the sensory cells
+associated with the trichobothrium
+(after Barth and Höller, 1999).
+
+Fig. 9.Vibratory signals used by
+Cupiennius salei to communicate
+with its sexual partner during
+courtship. Oscillogram (lower trace,
+acceleration of plant leaf) and “son-
+agram” (vibrogam) of a series of 9
+male syllables followed by a female
+vibratory response. Note the energy
+maxima (red areas) at very low
+frequencies (male: around 100 Hz;
+female: around 40 Hz; data from
+D.Baurecht; Barth, 2001).
+and discharge rate. Remarkably, the response threshold
+both for the female spider’s behavior and the individual
+slit is about 8 mm/s2. At the other end of the scale, that
+is at stimulus amplitudes greater than about 1.000
+mm/s2(and thus exceeding the highest naturally occur-
+ring amplitudes), the synchronization between the re-
+ceptor response and the male signal rapidly decreases.
+This implies that the receptor doesn’t precisely copy the
+signal’s temporal structure anymore (Fig. 10). The rea-
+son is an increasing number of action potentials be-
+tweenthe syllables, that is during the silent period of
+the vibratory signal. We assume that the sensory misin-
+terpretation at too-high amplitudes is an important rea-
+son for the marked decline in female behavioral re-
+sponses in the same amplitude range. The argument is
+strengthened by the finding that the vibration signals
+produced by scratching and drumming with the pedi-
+palps which contain higher frequency components than
+the opisthosoma signals and have differing ethological
+significance, are to a great extent processed separately
+from the opisthosoma signals by the female’s
+metatarsal organ. Remarkably, the response curves of
+the corresponding small slits of the metatarsal organ are
+not logarithmic but linear between 10 and 10,000
+mm/s2(Fig. 11; Baurecht and Barth, 1992, 1993).
+Temporal pattern
+Important filter properties of a sensory organ may not at
+all be obvious from its responses to “clean” laboratory
+stimuli such as simple sinusoidal vibration in the given
+case. The special behavioral significance of the tempo-
+ral pattern of the male courtship signal has already been
+mentioned. Is there a particular match between the re-sponse characteristics of the metatarsal organ and this
+pattern?
+Stimulation of the female vibration receptor with entire
+natural male courtship series consisting of many sylla-
+bles indicates that this is indeed the case (Baurecht and
+Barth, 1993). (1) As the series proceeds, the number of
+action potentials per syllable decreases. The quality of
+the representation of the temporal pattern (syllables,
+pauses), however, is maintained. (2) When using series
+with increasing numbers of syllables, it turns out that the
+signal-to-noise ratio becomes larger, because the syn-
+chronization of stimulus and excitation improves pro-
+gressively and the number of nerve impulses between
+syllables decreases. (3) The end of the series of syllables
+is especially marked by a poststimulatory depression of
+the receptor response which falls below the spontaneous
+discharge rate. Remarkably, behavioral experiments had
+shown that a series must consist of at least three syllables
+to cause a female response in 50% of cases (with the re-
+sponse rate increasing until the series contains 12 sylla-
+bles), and also that only syllables grouped to form series,
+that is packets of syllables, effectively elicit a female re-
+sponse (Schüch and Barth, 1990).
+What do we learn from this?
+1. The sensory world of Cupiennius and of many other
+spiders (though not all) is to a high degree dominated
+by mechanical stimuli. The ability to detect cuticular
+strains, tactile stimuli, air movements, and substrate vi-
+brations is exquisite. It provides the spider with highly
+resolved pictures of a multitude of mechanical events.
+282F. G. Barth 
+Zoology 105(2002) 4
+
+
+Fig. 10. Top:Response of one of
+the long slits (slit 2, PST histo-
+grams) of a female metatarsal lyri-
+form organ of Cupiennius salei to
+synthetic male courtship vibrations
+to show dependence of copying
+properties on signal (acceleration)
+amplitude. Bottom: Synchronization
+coefficient SCas a measure of the
+copying quality. SC = 1 indicates
+perfect copying of syllable and
+pause duration, SC = 0 indicates no
+copying. Note relationship between
+receptor response and behavioral
+response (after Baurecht and Barth,
+1993). 
+The corresponding sensors are all widely distributed
+over the body surface allowing for adequate spatial res-
+olution.
+2. Neurobiology starts way out in the periphery. By
+their well developed filter properties, the sensors al-ready considerably influence behavior. It seems that
+this is one of the reasons why arthropods perform so
+well behaviorally despite the small size of their brain.
+The spider’s sensory periphery not only is “clever”, but
+also has at its disposal an enormous number of sensory
+283Spider Senses
+Zoology 105(2002) 4
+Fig. 11. Difference in response
+characteristics of long slit 2 and
+short slit 11 of female metatarsal
+organ to vibrational stimuli (male
+syllables) of increasing intensity
+(acceleration amplitude). 95% con-
+fidence interval of spontaneous dis-
+charge frequency denotes threshold
+of slit 2. Note logarithmic relation-
+ship between stimulus and response
+of slit 2 between 3 and 1000 mm/s2
+and linearity of same relationship in
+case of slit 11 over the whole range
+tested (after Baurecht and Barth,
+1993).
+
+cells, which by far exceeds that of the neurons in the
+central nervous system (CNS).
+3. Sensors are not the transparent windows to the
+world as we tend to consider them. They rather inform
+the CNS only or very preferentially about the biologi-
+cally (behaviorally) relevant stimulus patterns.
+4. Evolutionary processes are remarkably creative. Per-
+manent “quality control” through natural selective pres-
+sures over millions of years often led to masterpieces of
+“engineering”. Spider senses exemplify this nicely. This
+is fascinating in its own right, but also stresses the po-
+tential lying in a close cooperation between biologists
+and engineers. Artificial micro- and nanosensors have
+gained enormous importance in industry, bioengineer-
+ing, medicine, robotics, manufacturing and intra- and
+extraterrestrial exploration. What the biologists can
+offer here are not ready-made instructions of how to
+build and manufacture a sensor, but their familiarity
+with a treasure house of inspiring solutions to a wide
+spectrum of sensory problems. The most valuable input
+from engineering to sensory biology, on the other hand,
+is the application of computational skills and mathemat-
+ical quantification (Barth et al., 2002).
+5. Obviously, biology is also fascinating in areas where
+its questions are not primarily derived from a molecu-
+lar, but from an organismic point of view. Karl von
+Frisch was an unrivalled master of this kind of ap-
+proach. His discoveries inspired many fields of zoolog-
+ical research now flourishing. Comparative sensory bi-
+ology is the most prominent among them and still offers
+endless opportunities to celebrate the ingenuity of life. 
+Acknowledgements
+I am grateful for the invitation to deliver this lecture at
+the occasion of the award of the Karl von Frisch-Medal
+at the annual meeting of the Deutsche Zoologische
+Gesellschaft in Halle (2002). Our own research reported
+in this paper was funded by the German and (since 1987)
+by the Austrian Science Foundation (DFG, FWF). Many
+thanks go to Raphael Barth, who patiently and compe-
+tently helped with the preparation of the figures.
+References
+Barth, F. G. 1986. Vibrationssinn und vibratorische Umwelt von
+Spinnen. Naturwissenschaften 73 (9): 519–530.
+Barth, F. G. 1997. Vibratory communication in spiders: Adapta-
+tion and compromise at many levels. In: M. Lehrer (ed.) Orien-
+tation and Communication in Arthropods. Birkhäuser, Basel:
+247–272. Barth, F. G. 1998. The vibrational sense of spiders. In: Hoy RR,
+AN Popper, RR Fay (eds.) Springer Handbook of Auditory Re-
+search. Comparative Hearing: Insects. Springer, New York:
+228–278.
+Barth, F. G. 2000. How to catch the wind: spider hairs specialized
+for sensing the movement of air. Naturwissenschaften 83:
+51–58.
+Barth, F. G. 2001. Sinne und Verhalten: aus dem Leben einer
+Spinne. Springer Verlag, Berlin. English edition 2002. A Spi-
+der’s World: Senses and Behavior. Springer Verlag, Berlin.
+Barth, F. G. and J. Bohnenberger. 1978. Lyriform slit sense
+organ: threshold and stimulus amplitude ranges in a multi-unit
+mechanoreceptor. J. Comp. Physiol. 125: 37–43.
+Barth, F. G. and D. Cordes. 1998. Cupiennius remedius (Araneae,
+Ctenidae), a new species in Central America, and a key for the
+genus Cupiennius . J. Arachnol. 26: 133–141.
+Barth, F. G. and H.-E. Dechant. 2002. Arthropod cuticular hairs:
+tactile sensors and the refinement of stimulus transformation.
+In: Barth F.G., J.A.C. Humphrey, T.W. Secomb (eds.) Sensors
+and Sensing in Biology and Engineering. Springer Verlag,
+Wien: 159–171.
+Barth, F. G. and Geethabali. 1982. Spider vibration receptors.
+Threshold curves of individual slits in the metatarsal lyriform
+organ. J. Comp. Physiol. A 148: 175–185.
+Barth, F. G. and A. Höller. 1999. Dynamics of arthropod filiform
+hairs. V. The response of spider trichobothria to natural stim-
+uli. Phil. Trans R. Soc. Lond. B 354: 183–192.
+Barth, F. G. and H.-P. Pickelmann. 1975. Lyriform slit sense or-
+gans. Modelling an arthropod mechanoreceptor. J. Comp.
+Physiol. 103: 39–54.
+Barth, F. G., E. Ficker and H.-U. Federle. 1984. Model studies on
+the mechanical significance of grouping in compound spider
+slit sensilla. Zoomorphology 104: 204–215.
+Barth, F. G., U. Wastl, J. A. C. Humphrey and R. Devarakonda.
+1993. Dynamics of arthropod filiform hairs. II. Mechanical
+properties of spider trichobothria ( Cupiennius salei KEYS.)
+Phil. Trans. R. Soc. Lond. B 340: 445–461.
+Barth, F. G., J. A. C. Humphrey, U. Wastl, J. Halbritter and W.
+Brittinger. 1995. Dynamics of arthropod filiform hairs. III.
+Flow patterns related to air movement detection in a spider
+(Cupiennius salei KEYS.). Phil. Trans. R. Soc. Lond. B 347:
+397–412.
+Barth, F. G., J. A. C. Humphrey and T. W. Secomb (eds.). 2002.
+Sensors and Sensing in Biology and Engineering. Springer
+Verlag, Wien (in print).
+Baurecht, D. and F. G. Barth. 1992. Vibratory communication in
+spiders. I. Representation of male courtship signals by female
+vibration receptor. J. Comp. Physiol. A 171: 231–243. 
+Baurecht, D. and F. G. Barth. 1993. Vibratory communication in
+spiders. II. Representation of parameters contained in synthetic
+male courtship signals by female vibration receptor. J. Comp.
+Physiol. A 173: 309–319.
+Bohnenberger, J. 1981. Matched transfer characteristics of single
+units in a compound slit sense organ. J. Comp. Physiol. A 142:
+391–401.
+Blickhan, R. and F. G. Barth. 1985. Strains in the exoskeleton of
+spiders. J. Comp. Physiol. A 157: 115–147.
+Brittinger, W. 1998. Trichobothrien, Medienströmungen und das
+Orientierungsverhalten von Jagdspinnen ( Cupiennius salei
+Keys). Dissertation, University Vienna.
+Dechant, H.-E., F. G. Rammerstorfer and F. G. Barth. 2001.
+Arthropod touch reception: stimulus transformation and finite
+element model of spider tactile hairs. J. Comp. Physiol. A 187:
+313–322; see also erratum p. 851.
+284F. G. Barth 
+Zoology 105(2002) 4
+
+Friedel, T. and F. G. Barth. 1997. Wind-sensitive interneurones in
+the spider CNS (Cupiennius salei ). Directional information
+processing of sensory inputs from trichobothria on the walking
+legs. J. Comp. Physiol. A 180: 223–233.
+Humphrey, J. A. C., R. Devarakonda, J. Iglesias and F. G. Barth.
+1993. Dynamics of arthropod filiform hairs. I. Mathematical
+modelling of the hair and air motions. Phil. Trans. R. Soc.
+Lond. B 340: 423–444.
+Humphrey, J. A. C., F. G. Barth and K. Voss. 2001. The motion-
+sensing hairs of arthropods: using physics to understand sen-
+sory ecology and adaptive evolution. In: Barth F.G., A. Schmid
+(eds.). The Ecology of Sensing. Springer Verlag, Berlin:
+105–125.
+Humphrey, J. A. C., F. G. Barth, M. Reed and A. Spak. 2002.
+Arthropod motion sensing hairs: biological models for micro-
+electromechanical sensors. In: Barth F.G, J.A.C. Humphrey,
+T.W Secomb (eds.). Sensors and Sensing in Biology and Engi-
+neering. Springer Verlag, Wien: 129–144.
+Keyserling, E. 1877. Über amerikanische Spinnenarten der Un-
+terordnung Citigradae. Verh. zool-bot. Ges. Wien 26: 609–708. 
+Lachmuth, U., M. Grasshoff and F. G. Barth. 1984. Taxono-
+mische Revision der Gattung Cupiennius SIMON 1891 (Arach-
+nida, Araneae, Ctenidae). Senck. biol. 65: 329–372.
+Schüch, W. and F. G. Barth. 1990. Vibratory communication in a
+spider: female responses to synthetic male vibrations. J. Comp.
+Physiol. A 166: 817–826.Schulz, S., M. Papke, H. Tichy, E. Gingl and R. Ehn. 2000. Iden-
+tification of a new sex pheromone from silk dragline of the
+tropical hunting spider Cupiennius salei . Angew. Chem. 39:
+4339–4341.
+Shimozawa, T., J. Murakami and T. Kumagai. 2002. Cricket
+wind receptors: Thermal noise for the highest sensitivity
+known. In: Barth F. G., J. A. C. Humphrey, T. W. Secomb
+(eds.). Sensors and Sensing in Biology and Engineering.
+Springer Verlag, Wien: 145–157.
+Speck-Hergenröder, J. and F. G. Barth.1987. Tuning of vibration
+sensitive neurons in the central nervous system of a wandering
+spider, Cupiennius salei Keys. J. Comp. Physiol. A 160:
+467–475.
+Stokes, G. G. 1851. On the effect of the internal friction of fluids
+on the motion of pendulums. Trans. Camb. Phil. Soc. 9: 8ff
+(reprinted in: Mathematical and Physical Papers, Vol III, pp.
+1–141. Cambridge Univ. Press 1901).
+Thurm, U. 1982. Grundzüge der Transduktionsmechanismen in
+Sinneszellen. Mechano-elektrische Transduktion. In: Hoppe W.,
+W. Lohmann, H. Markl, H. Ziegler (eds.). Biophysik. Springer
+Verlag, Berlin: 681–696.
+Tichy, H., E. Gingl, R. Ehn, M. Papke and S. Schulz. 2000. Fe-
+male sex pheromone of a wandering spider ( Cupiennius salei ).
+Identification and sensory reception. J. Comp. Physiol. A 187:
+75–78.
+285Spider Senses
+Zoology 105(2002) 4

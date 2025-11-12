@@ -1,0 +1,11 @@
+[2025-07-14T16:14:30.823+0900] {processor.py:161} INFO - Started process (PID=55728) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-07-14T16:14:30.825+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-07-14T16:14:30.825+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:30.825+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-07-14T16:14:30.832+0900] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-07-14T16:14:30.928+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:30.927+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-07-14T16:14:30.930+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:30.930+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-07-14T16:14:30.932+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:30.932+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-07-14T16:14:30.932+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:30.932+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:30.936+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:30.936+0900] {dag.py:3118} INFO - Creating ORM DAG for example_sensors
+[2025-07-14T16:14:30.936+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:30.936+0900] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-07-14T16:14:30.943+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.122 seconds

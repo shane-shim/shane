@@ -1,0 +1,758 @@
+Agile Coaching Learning 
+Outcomes 
+Version 5.1
+
+LICENSING INFORMATION 
+
+The  work  in  this  document  was  facilitated  by  the  International  Consortium  for  Agile 
+(ICAgile) and done by the contribution of various Agile Experts and Practitioners. These 
+Learning Outcomes are intended to help the growing Agile community worldwide. 
+
+This  work  is  licensed  under  the  Creative  Commons  Attribution-NonCommercial-
+NoDerivatives  4.0  International  License.  To  view  a  copy  of  this  license,  visit  http://
+creativecommons.org/licenses/by-nc-nd/4.0/ or send a letter to Creative Commons, PO 
+Box 1866, Mountain View, CA 94042, USA. 
+
+YOU ARE FREE TO: 
+
+Share — copy and redistribute the material in any medium or format 
+
+UNDER THE FOLLOWING TERMS: 
+
+Attribution — You must give appropriate credit to The International Consortium for Agile 
+(ICAgile), provide a link to the license, and indicate if changes were made. You may do 
+so in any reasonable manner, but not in any way that suggests ICAgile endorses you or 
+your use. 
+
+NonCommercial — You may not use the material for commercial purposes. 
+
+NoDerivatives  —  If  you  remix,  transform,  or  build  upon  the  material,  you  may  not 
+distribute the modiﬁed material. 
+
+NOTICES: 
+
+You  do  not  have  to  comply  with  the  license  for  elements  of  the  material  in  the  public 
+domain or where your use is permitted by an applicable exception or limitation. 
+
+No warranties are given. The license may not give you all of the permissions necessary 
+for  your  intended  use.  For  example,  other  rights  such  as  publicity,  privacy,  or  moral 
+rights may limit how you use the material. 
+
+PAGE 
+LICENSING INFORMATION
+
+ 2
+
+SPECIAL THANKS 
+
+ICAgile would like to thank the contributors to the Agile Coaching 
+Learning Outcomes:  
+Marsha Acker • Lyssa Adkins • Luke Lackrone • Timothy Meyers • 
+Ahmed Sidky • Michael Spayd 
+
+PAGE 
+SPECIAL THANKS
+
+ 3
+
+ 
+CONTENTS 
+
+2 LICENSING INFORMATION
+
+3 SPECIAL THANKS
+
+4 TABLE OF CONTENTS
+
+5 HOW TO READ THIS DOCUMENT
+
+6 LEARNING OUTCOMES
+
+6 1. DEVELOPMENT IN THE AGILE COACHING DISCIPLINE
+
+6 1.1. The Agile Coaching Mindset
+
+7 2. COACH AS PROFESSIONAL COACH
+
+7 2.1. Foundational Professional Coaching Skills
+
+8 2.2. The Coaching Conversation – Coaching for Action
+
+9 3. COACH AS MENTOR
+
+9 3.1. Key Mentoring Skills
+
+9 3.2. Mentoring Agile Role Transitions
+
+10 4. COACH AS TEACHER
+
+10 4.1. Key Teaching Skills
+
+11 4.2. Agile Mindset Shifts and Frameworks
+
+11 5. COACH AS TEAM COACH
+
+11 5.1. Foundational Team Coaching
+
+12 5.2. Describing Team Development
+
+13 5.3. Coaching the Journey toward High Performance
+
+13 5.4. Handling Conﬂict and Dysfunction within the Team
+
+14 5.5. Handle Organizational Impediments
+
+14 6. SET BOUNDARIES FOR AGILE COACHING
+
+14 6.1. Coaching Alliances and Contracts
+
+PAGE 
+ 4
+CONTENTS
+
+ 
+ 
+ 
+HOW TO READ THIS DOCUMENT 
+
+This document outlines the Learning Outcomes that must be addressed by accredited 
+training organizations intending to offer ICAgile’s Agile Coaching certiﬁcation. 
+
+Each LO follows a particular pattern, described below. 
+
+0.0.0. Learning Outcome Name 
+
+Additional Context, describing why this Learning Outcome is important or what it 
+is intended to impart.  
+
+The  Learning  Outcome  purpose,  further  describing  what  is  expected  to  be 
+imparted on the learner (e.g. a key point, framework, model, approach, technique, 
+or skill). 
+
+PAGE 
+HOW TO READ THIS DOCUMENT
+
+ 5
+
+ 
+LEARNING OUTCOMES 
+
+1. DEVELOPMENT IN THE AGILE COACHING DISCIPLINE 
+
+1.1. THE AGILE COACHING MINDSET 
+
+1.1.1. Deﬁnition of Agile Coaching 
+
+Professionals operating at the Agile Coaching step make conscious choices about 
+their actions in the service of teams. 
+
+Provide guidance on how to choose and/or combine the four basic skills in each 
+moment  (coaching,  facilitating,  mentoring  and  teaching)  that  will  best  serve  the 
+situation.  Practical  advice  on  which  to  choose  and  how,  along  with  skills  to 
+cultivate the needed self-awareness and self-management, are taught in this LO.  
+
+1.1.2. Coach as Agile Role Model 
+
+Effective Agile Coaches are the “ﬁrst Agilist.” 
+
+Make the case that personally embodying the Agile values and principles is a key 
+component of being an Agile Coach, and is gained through real-world experience 
+with agile delivery.  
+
+1.1.3. Achieving Essential Mindset Shifts 
+
+Effective Agile coaches successfully make some key mindset shifts and serve as a 
+living example of how one can thrive within these new mindsets.  
+
+Introduce key mindset shifts and help learners see ways to live these shifts in their 
+own  lives.  Key  mindset  shifts  may  include:  focus  on  team  improvement  over 
+speciﬁc  results;  focus  on  business  value-driven  delivery  over  achieving  scope, 
+schedule or budget targets; focus on the leverage in the present moment over the 
+past or future; focus on staying curious and seeing the best in people over judging 
+or  manipulating;  focus  on  assisting  the  team  in  achieving  their  commitment  and 
+learning when they do not achieve it rather than stepping in and doing it for them; 
+employing  a  “servant  as  leader”  style  rather  than  “telling”  style  (see  Robert 
+Greenleaf). 
+
+1.1.4. Achieving Self-Awareness/Self-Management in the Coach 
+
+Self-management  is  a  critical  Agile  Coaching  skill  that  can  be  learned  and 
+increased. 
+
+Introduce one or more models of self-awareness that impact one's ability to be an 
+effective  Agile  Coach.  Further,  this  LO  is  concerned  with  giving  the  learner 
+techniques  for  managing  themselves,  their  biases,  assumptions  and  emotions 
+within  a  coaching  context.  To  be  effective,  the  Agile  Coach  must  be  both  self-
+aware  (e.g.,  know  when  she  is  biased  about  a  given  topic)  and  use  self-
+management  (e.g.,  not  let  her  bias  affect  how  she  facilitates  the  meeting). There 
+are  many  models  of  self-awareness  (e.g.,  emotional  intelligence,  Myers-Briggs, 
+various  personality  inventories,  various  self-awareness  mindfulness  techniques) 
+
+PAGE 
+LEARNING OUTCOMES
+
+ 6
+
+that  can  guide  the  coach.  Most  important  is  to  choose  at  least  one  model  and 
+apply it. 
+
+1.1.5. Agile Coaching Stance 
+
+An  Agile  Coaching  stance  gives  a  coach  something  to  hold  onto  --  a  center,  an 
+anchor -- in their professional storms.  
+
+Guide  the  learner  into  understanding  an  Agile  Coaching  stance  --  a  blend  of  their 
+skills  and  attitudes  they  will  need  to  hold-to  in  the  work  of  Agile  Coaching:  a 
+mindful “how to be.” An Agile Coach blends their core skills of facilitation, teaching, 
+professional coaching and mentoring, along with other relevant skills and attitudes 
+--  perhaps  related  to  conﬂict  navigation,  interpersonal  communication,  individual 
+change  or  technical  craft  (as  examples).  The  intent  is  that  the  coach-at-work 
+should  consciously  consider  and  choose  from  their  stance,  as  they  partner  with 
+teams and individuals for their success. As a matter of instruction, a model Agile 
+Coaching  stance  could  be  provided,  or  the  learner  may  be  guided  into  designing 
+their own. 
+
+1.1.6. Ethical Considerations of Agile Team Coaching 
+
+Understanding  our  own  ethical  boundaries  as  a  coach  helps  us  know  what  and 
+where our limits are. 
+
+Deﬁne  what  ethical  considerations  should  be  addressed  when  coaching 
+individuals  and  teams.  Explore  this  topic  from  the  perspective  of  a  leader,  agile 
+coach,  professional  coach,  and  their  own  personal  boundaries.  Introduce  the 
+learner to the Agile Alliance Code of Ethics initiative. 
+
+2. COACH AS PROFESSIONAL COACH 
+
+2.1. FOUNDATIONAL PROFESSIONAL COACHING SKILLS 
+
+2.1.1. Basics of Using Emotional Intelligence as Underpinning 
+
+Developing  one’s  emotional  intelligence  (EQ)  is  necessary  for  using  professional 
+coaching skills in service of others. 
+
+Introduce one or more models for emotional intelligence and make the connection 
+that  EQ  is  the  underpinning  for  professional  coaching  skills  because  it  enables 
+self-awareness and self-management. 
+
+2.1.2. Presence 
+
+Being  fully  present  as  a  coach  is  key  to  successful  coaching.  Methods  for 
+presence 
+include  building  rapport,  awareness  of  the  environment,  self-
+management and consciously preparing for coaching. 
+
+Teach  the  importance  of  presence  and  provide  the  learner  with  techniques  and 
+methods for achieving it. 
+
+2.1.3. Listening 
+
+Listening is more than hearing; and, it is a skill that is often taken for granted. To 
+be of service, coaches must develop their listening skill. 
+
+PAGE 
+LEARNING OUTCOMES
+
+ 7
+
+Teach the importance of listening and provide the learner with at least one model 
+or technique for developing their listening skill. 
+
+2.1.4. Powerful Questioning 
+
+Powerful  questions  are  open  ended,  thought-provoking  questions  that  trigger 
+curiosity  and  stimulate  creativity  /  new  insights.  For  example,  rather  than  asking 
+“Did that work?” regarding an action the client took, the coach may ask “What did 
+you learn?” 
+
+Familiarize  the  learner  with  the  concept,  examples  and  application  of  powerful 
+questions. 
+
+2.1.5. Giving and Receiving Feedback 
+
+Being able to openly receive and provide effective feedback that builds people up 
+instead  of  tearing  them  down  is  essential  to  helping  individuals  achieve  their 
+potential. 
+
+Provide the learner with techniques for giving effective feedback to coachees and 
+being open to receiving feedback from coachees and other coaches. 
+
+2.2. THE COACHING CONVERSATION – COACHING FOR ACTION 
+
+2.2.1. Topic Identiﬁcation 
+
+Coaches  must  be  able  to  help  the  coachee  identify  the  topic  they  would  like  to 
+work on; often, it is deeper than what the coachee initially presents. 
+
+Introduce  techniques  for  coaching  others  as  they  identify  the  topic  they  want 
+coaching on. This may involve sorting, prioritization, uncovering underlying issues, 
+etc. 
+
+2.2.2. Topic Exploration 
+
+The majority of the coaching conversation is spent in exploration. 
+
+Introduce  various  techniques  that  can  be  used  to  explore  the  topic.  Techniques 
+might  include  reﬂecting  non-verbal  communications,  perspective  shifting,  asking 
+open-ended questions, metaphors, values clariﬁcation, etc.  
+
+2.2.3. Action Commitment 
+
+The coaching conversation successfully completes when the coachee moves into 
+action of their own choosing. 
+
+Introduce  techniques  that  can  be  used  to  move  into  effective  action  after  the 
+coachee has identiﬁed and explored the relevant topic, thereby helping them take 
+responsibility for their actions and their results. 
+
+2.2.4. Conducting the Coaching Conversation 
+
+It  is  important  to  experience  using  the  concept  of  a  coaching  conversation  in  a 
+realistic Agile setting. 
+
+Practice  having  a  coaching  conversation  from  beginning  to  end  using 
+Foundational  Professional  Coaching  Skills,  to  identify  the  topic  for  coaching. 
+Explore the topic and help the coachee come to an action commitment. 
+
+PAGE 
+LEARNING OUTCOMES
+
+ 8
+
+3. COACH AS MENTOR 
+
+3.1. KEY MENTORING SKILLS 
+
+3.1.1. Give Options While Maintaining Presence 
+
+The act of giving options is a cornerstone for mentorship. The best mentors give 
+options in the service of their mentee, ﬁguratively or literally by their side. 
+
+Introduce at least one technique on how to provide options while maintaining full 
+presence in service of furthering the mentee’s agenda. 
+
+3.1.2. Articulate Expertise 
+
+You can’t mentor someone in something you don’t know more about than them. 
+
+Clarify  the  connection  between  one’s  expertise  and  their  ability  to  mentor, 
+emphasizing that mentoring skills cannot be applied in areas where one’s expertise 
+is less than the mentee. 
+
+3.1.3. Mentee at Free Choice 
+
+Actions freely chosen by the mentee are more likely to happen. 
+
+Explore  the  inherent  tension  between  wanting  to  give  direction  and  helping  the 
+mentee  explore  options  for  themselves.  Introduce  at  least  one  method  to  honor 
+the mentee’s free choice. Mentors should use their power wisely to help mentees 
+make choices that are right for them, rather than pushing their own agenda. 
+
+3.2. MENTORING AGILE ROLE TRANSITIONS 
+
+3.2.1. Contrasting Mentoring with Coaching 
+
+Knowing  when  to  coach  and  when  to  mentor  is  a  critical  skill  for  coaches  when 
+working with individuals in transition. 
+
+Contrast  coaching  and  mentoring,  exploring  situations  in  which  one  might  be 
+preferable over the other. 
+
+3.2.2. Understanding the Individual Change Cycle 
+
+Whether  they  are  just  beginning  in  Agile  environments,  or  as  they  develop  into 
+skilled  practitioners,  individuals  on  Agile  teams  are  confronted  with  the  need  to 
+learn new skills, develop new mindsets and engage in new relationships with their 
+colleagues. In short, they are required to change. 
+
+Introduce  one  or  more  models  for  how  individuals  change,  grow  and  learn.  Such 
+models  should  distinguish  between  self-chosen  change  and  organizationally 
+imposed change. It should also emphasize the need to “meet a person where they 
+are”  in  their  change  process,  rather  than  the  coach  imposing  her/his  beliefs  or 
+needs. 
+
+3.2.3. Key Agile Role Transitions 
+
+Everyone  goes  through  some  kind  of  transition  in  their  role  when  they  encounter 
+Agile methods and an Agile Coach clearly articulates that transition.  
+
+PAGE 
+LEARNING OUTCOMES
+
+ 9
+
+Provide an overview of the typical transitions faced by the people in various roles 
+and/or responsibilities when Agile is brought in, such as analysts who move out of 
+the  customer/team  intermediary  role,  testers  who  become  part  of  the  up-front 
+action, product owners who focus on the “what” and “why” of the product and Agile 
+managers  who  become  creators  of  Agile  environments.  This  LO  presents  key 
+transitions so that Agile Coaches can easily articulate them. (Which roles and their 
+transitions to be covered will be dependent on the Course Designer's beliefs about 
+Agile roles and their business context.) 
+
+3.2.4. Identifying and Handling Resistance from Individuals 
+
+Agile Coaches use resistance rather than resisting resistance. 
+
+Help  the  learner  decipher  how  to  work  with  resistance  from  individuals  as  they 
+take up their Agile roles, rather than seeing resistance as an indication of failure or 
+something to be solved. In this LO, the learner is exposed to at least one model for 
+working positively with resistance.  
+
+3.2.5. Conducting the Mentoring Conversation 
+
+It’s  important  to  integrate  the  skills  of  mentoring  in  a  mentoring  conversation 
+about a real-world Agile situation. 
+
+Practice  mentoring  skills  (which  may  also  include  coaching  skills)  in  a  realistic 
+Agile setting. This includes establishing and maintaining presence with a mentee, 
+articulating  expertise  and  sharing  experience,  and  keeping  the  mentee  at  free 
+choice.  
+
+4. COACH AS TEACHER 
+
+4.1. KEY TEACHING SKILLS 
+
+4.1.1. Use Multiple Content Delivery Mechanisms 
+
+Individuals have a personal learning style. It is essential for the teacher to consider 
+and use multiple styles to ensure broadest impact. 
+
+Orient  the  learner  to  the  personal  nature  of  human  learning  and  provide  an 
+overview  of  techniques  (e.g.,  visual,  auditory,  tactile,  experiential,  lecture)  that 
+should be considered when designing learning experiences. 
+
+4.1.2. Chunk Content into Digestible Pieces 
+
+You should not try to eat an elephant in one bite. 
+
+Expose  the  learner  to  strategies  for  breaking  up  learning  experiences  into  pieces 
+that are most likely to take root and help the learners to maintain focus. It is likely 
+that  this  LO  will  draw  parallels  or  direct  connections  to  facilitative  techniques 
+described elsewhere in the course. 
+
+4.1.3. Check for Understanding 
+
+Silence is not agreement or understanding. New ideas do not always land well, or 
+at all. 
+
+PAGE 
+
+ 10
+
+LEARNING OUTCOMES
+
+Introduce  techniques  to  help  learners  assess  the  impact  and  understanding  of  a 
+new  idea  within  a  student  or  group.  It  is  critical  for  coaches  not  to  simply  ask 
+students  “Do  you  understand?”  and  accept  nodding  heads  as  a  positive  indicator 
+of  understanding.  Coaches  may  use  many  different  techniques  for  “checking-in”, 
+including:  repeating  back  (asking  the  student  to  repeat  the  new  idea),  discussing 
+the new idea and its implications, teaching back (asking the student to teach the 
+new  idea)  and  reporting  out  (ask  the  students  to  report  in  with  new  experiences 
+based on the new idea). 
+
+4.1.4. Create an Environment for Stickiness 
+
+Casting a new idea is the start -- not the end -- of the teacher’s role. 
+
+Arm  the  learner  with  at  least  one  strategy,  model  or  technique  that  promotes 
+lesson stickiness (e.g., 10m/24h/7d). 
+
+4.2. AGILE MINDSET SHIFTS AND FRAMEWORKS 
+
+4.2.1. Helping Team Members Experience the Agile Mindset Shifts 
+
+Foundational Agile beliefs must be experienced, not just taught. 
+
+Convey the importance of helping team members experience mindset shifts such 
+as  value-driven  priority,  self-organization  or  empirical  process  improvement 
+through experiential learning. 
+
+4.2.2. PRACTICE: Distinguishing and Articulating at Least One Agile 
+
+Framework 
+
+Agile  Coaches  know  one  or  more  Agile  frameworks  ‘stone-cold’  and  can  fully 
+articulate at least one clearly, simply and quickly. 
+
+Help  the  learner  develop  the  capability  to  articulate  and  teach  at  least  one  Agile 
+framework, 
+its  associated  roles,  common  practices,  values  and 
+principles. 
+
+including 
+
+5. COACH AS TEAM COACH 
+
+5.1. FOUNDATIONAL TEAM COACHING 
+
+5.1.1. Systems View 
+
+Team  coaching  includes  looking  beyond  individual  voices  and  seeing  the  system 
+itself. 
+
+Introduce concepts around shifting the coach’s focus from individuals to a whole-
+system  perspective.  This  involves  looking  at  the  system  of  all  humans  involved, 
+and  the  connections  between  them  in  order  to  see  it  truly  as  an  outsider. 
+Everything that happens in a system is data about how the system operates.  
+
+5.1.2. Observation  
+
+An  Agile  Coach  must  develop  muscles  of  observation  apart  from  interpretation 
+and evaluation. 
+
+PAGE 
+
+ 11
+
+LEARNING OUTCOMES
+
+Help  the  learner  see  with  neutral  eyes  to  differentiate  between  the  facts  of 
+observation  (as  a  video  camera  would  capture  it)  and  analysis,  interpretation, 
+judgment or evaluation.  
+
+5.1.3. Articulate What's Happening 
+
+Being able to name what you see, in a non-judgemental way, creates awareness for 
+the system. 
+
+Help the learners voice their observations, in service of the system becoming more 
+self-aware. The ability to present a neutral observation is one of the agile coach’s 
+most  basic  interventions.  A  system  that  can  see  itself  may  self-repair  when 
+unhealthy dynamics are present.  
+
+5.2. DESCRIBING TEAM DEVELOPMENT 
+
+5.2.1. Describing a Model of Team Development and Using it in Service of 
+
+a Team's Development 
+
+Agile  Coaches  understand  and  use  one  or  more  models  to  illustrate  how  teams 
+develop; they are able to use them to articulate where a team is and to help them 
+take measured steps forward. 
+
+Introduce  one  or  more  models  for  how  teams  develop  over  time,  and  be  able  to 
+use  the  model  to  inform  their  intervention  with  a  team.  This  includes  a  group’s 
+conscious  decision  to  become  a  team  and  a  team’s  continued  journey  to  high-
+performance.  As  examples,  the  coach  may  detect  the  team’s  current 
+developmental level and use that information to inform the design of a team start-
+up, reset or recovery, or coaching “in the moment,’ with an intention of empowering 
+the team to chart their own path. 
+
+5.2.2. Helping a Team Detect their Own Stage of Development 
+
+Agile  Coaches  develop  a  team’s  capability  to  detect  their  own  stage  of 
+development and devise strategies to improve. 
+
+Convey  the  importance  of  raising  the  team’s  capacity  for  self-awareness,  and 
+ability to self-heal and self-improve. The coach can do this by sharing one or more 
+models  for  team  development  and  giving  the  team  language  and  practice  at 
+naming what they see, identifying what’s missing and what’s needed next. 
+
+5.2.3. PRACTICE: Creating a Team Kickoff / Startup Agenda 
+
+Starting  a  team  off  on  the  right  foot  is  crucial  to  the  journey  towards  high 
+performance. 
+
+Provide  the  learner  with  an  opportunity  to  design  a  startup  or  re-set  of  a  team 
+using a real-world scenario. This would include elements such as helping the team 
+get to know one another, create a culture, align on a vision, setting up their work 
+environment [5] and establishing team agreements and/or ground rules. 
+
+PAGE 
+
+ 12
+
+LEARNING OUTCOMES
+
+5.3. COACHING THE JOURNEY TOWARD HIGH PERFORMANCE 
+
+5.3.1. Deﬁning and Identifying High Performance 
+
+Teams will move in and out of different levels of team functioning on their journey 
+to being a high performing team. Many teams will strive for high performance and 
+never reach it, others will experience it for a moment in time and it will be gone.  
+
+Help the learner identify characteristics of a high-performing team and to help the 
+team  assess  their  performance  and  identify  areas  for  improvement.  The  high 
+performing team model needs to support agile team performance characteristics 
+(e.g.,  empowerment,  shared  leadership,  vulnerability,  resolving  conﬂict,  trust  and 
+continuous improvement).  
+
+5.3.2. Team Development is a Journey, not a Destination 
+
+Teams will move in and out of different levels of team functioning on their journey 
+to being a high performing team. 
+
+Provide  the  learner  with  a  context  for  understanding  that  teams  go  through 
+cycles--moving  from  highly  collaborative  and  productive  to  less  productive  and 
+less  collaborative--in  addition  to  their  developmental  stages.  This  is  a  natural 
+process and needs to be reﬂected back to the team, not seen as a failure. 
+
+5.3.3. Assessing the Team as a Healthy System 
+
+Teams  will  develop  patterns  of  behavior  and  dynamics.  Assessing  a  team  in  a 
+moment,  getting  a  snapshot  of  its  behavior  and  norms,  gives  the  Agile  Coach 
+information to understand its health or non-health. 
+
+Introduce one or more models for assessing healthy team functioning, especially 
+the  ability  to  identify  clearly  dysfunctional  aspects.  Provide  suggestions  for 
+awareness  of  environmental  elements  typically  outside  the  team's  control  (e.g., 
+geographic  distribution,  teams  that  are  really  working  groups,  cultural 
+misunderstanding). 
+
+5.3.4. Adapt Your Style Based on Team Maturity 
+
+Enhance the team’s self-sufﬁciency by consciously choosing your leadership range 
+(i.e., leading from the front or leading from the back). 
+
+Convey  the  importance  of  becoming  intentional  about  one's  leadership  approach 
+based  on  the  team  maturity  and  Agile  maturity,  and  letting  the  level  of  direct 
+involvement decrease as they mature and take on more themselves. 
+
+5.4. HANDLING CONFLICT AND DYSFUNCTION WITHIN THE TEAM  
+
+5.4.1. Surfacing and Working with Conﬂict 
+
+Conﬂict  is  a  natural  part  of  a  team’s  development  and  learning  process  and  is 
+essential to their creativity and quality of work. Fear of interpersonal conﬂict can 
+be an impediment to building a high performing team. 
+
+Highlight  the  importance  of  conﬂict  in  a  team  and  provide  the  learner  with  the 
+ability  to  surface  conﬂict  in  a  positive  manner  to  improve  the  team’s  conﬂict 
+competency.  When  conﬂict  competency  exists,  team  members  feel  more 
+
+PAGE 
+
+ 13
+
+LEARNING OUTCOMES
+
+conﬁdent in their abilities to address conﬂict and hold one another accountable for 
+their behavior and performance. 
+
+5.4.2. Building Self-Awareness/Self-Management Capacity in the Team 
+
+The  same  issues  of  self-awareness  and  self-management  apply  to  the  team  as 
+well as to the Agile coach. 
+
+Give the learner tools to use for both themselves and with their teams to increase 
+the team’s capacity for both self-awareness and self- management.  
+
+5.4.3. Creating Awareness that Teams are Human Systems 
+
+Teams  are  human  systems  that  have  their  own  values,  perspectives, 
+consciousness and truth. 
+
+Expose  learners  to  the  idea  that  a  team  is  more  than  a  collection  of  individuals, 
+that it is a human system with its own characteristics, needs and growth potential. 
+Further,  show  that  moments  of  conﬂict  or  collaboration  difﬁculty  can  be  seen  as 
+human systems dynamics, rather than solely personal to the individuals involved. 
+The learner will be able to begin seeing the team as a human system by bringing 
+their awareness to this level, at least some of the time.  
+
+5.5. HANDLE ORGANIZATIONAL IMPEDIMENTS 
+
+5.5.1. Identifying and Capturing Impediments 
+
+The decision to adopt Agile at a team or organizational level will introduce varying 
+types of change into the organization. 
+
+Introduce  common  organizational  impediments  and  help  the  learner  be  able  to 
+help teams recognize and capture the impediments affecting them. Agile practices 
+do  not  necessarily  create  new  problems  but  they  have  a  way  of  surfacing 
+dysfunctions  that  already  exist  within  an  organization.  Organization  impediments 
+that  impact  the  team  may  be  such  things  as  organizational  structure,  physical 
+layout,  hiring  practices,  career  paths,  training  and  development, 
+ofﬁce 
+compensation, rewards and recognition, leadership, etc. At this level, the purpose 
+is  not  to  solve  these  organizational  challenges,  but  to  mitigate  their  impact  on  a 
+speciﬁc team. 
+
+5.5.2. Leadership Engagement 
+
+Organizational 
+limit  team  productivity  and  quality.  Some 
+impediments can be resolved by the team, others may need to be solved at higher 
+levels in the organization. 
+
+impediments 
+
+Provide the learner with the ability to know when and how to engage leadership in 
+solving organizational impediments. 
+
+6. SET BOUNDARIES FOR AGILE COACHING 
+
+6.1. COACHING ALLIANCES AND CONTRACTS  
+
+6.1.1. Deﬁning the Agile Coaching "Contract" 
+
+PAGE 
+
+ 14
+
+LEARNING OUTCOMES
+
+When  they  begin  work  with  a  team  and  its  business  unit,  effective  Agile  coaches 
+make agreements with key stakeholders (e.g., management, the team) on how the 
+coaching  work  will  proceed. This  involves  those  directly  affected  (e.g.,  the  team) 
+as well as those “paying for” or authorizing the coach’s services (e.g., management 
+or sponsor). 
+
+Convey the importance of a coaching contract, that it is not a “legal” contract but 
+rather  an  agreement  between  the  parties.  How  to  negotiate  such  an  agreement, 
+why it’s important to coaching success, how it helps bound what the coach agrees 
+to  do  (e.g.,  start-up  and  run  a  new  Agile  team  for  three  months)  and  what  the 
+coach  will  not  do  (e.g.,  give  performance  management  evaluations  for  team 
+members),  as  well  as  what  the  “client”  will  do  (e.g.,  provide  training  for  the  team, 
+make  a  candidate  Agile  Team  Facilitator  available  from  within  the  team)  are  all 
+components  of  this  LO.  Effective  Agile  Coaches,  whether  they  are  internal 
+employees  or  external  consultants,  see  their  work  similarly  to  that  of  a 
+collaborative consultant (see for instance Peter Block, Flawless Consulting), which 
+is why the coaching contract is an appropriate learning topic for all Agile Coaches. 
+
+6.1.2. Designing a Coaching Alliance 
+
+A coaching alliance is the other side of the coaching contract. Where the contract 
+provides  the  conditions  for  the  work  (e.g.,  boundaries,  time,  roles),  the  coaching 
+alliance empowers the Agile Coaching relationship. 
+
+Introduce key elements of designing a coaching alliance including creating rapport, 
+key  questions  to  ask,  tone  of  the  discussion  and  hoped-for  outcomes.  This  is  a 
+two-way  conversation  wherein  the  parties  assert  what  they  need  to  create  a 
+powerful  relationship,  and  negotiate  for  alignment.  It  answers  questions  such  as 
+how  do  the  individuals  or  the  team  as  a  whole  want  to  be  coached?  How  would 
+they like to receive feedback? How will the coach know when she has challenged 
+the team “too far” or “not enough”? Will they help the coach get better at coaching 
+them in the unique way they need to be coached? 
+
+6.1.3.  Internal  vs.  External  Coaches:  Special  Considerations  for 
+
+Contracting and Designing Alliances 
+
+Internal  coaches  and  external  coaches  work  under  different  constraints. 
+Understanding the power and limitations of their situation helps the coach create 
+stronger coaching contracts and alliances. 
+
+important  topics  to  bring 
+
+Discuss  the  key  differences  between  internal  and  external  coaches,  identify  the 
+unique  challenges  faced  by  internal  coaches  (e.g.,  maintaining  neutrality  and 
+conﬁdentiality,  holding  people  accountable,  challenging  the  status  quo)  and  that 
+these  are 
+into  coaching/alliance  conversations. 
+Familiarize the learner with the unique challenges of being an internal coach, and 
+that  it  does  not  prevent  them  from  maintaining  the  coaching  stance  (e.g., 
+maintaining  neutrality,  not  colluding,  supporting  the  client’s  agenda).  Familiarize 
+the  learner  with  the  unique  challenges  of  being  an  external  coach,  such  as  the 
+need  for  effective  systems  entry,  treating  the  client  system  with  respect  for  the 
+choices it has made, balancing challenge with respecting the pace of change that 
+can be assimilated, etc..
+
+PAGE 
+
+ 15
+
+LEARNING OUTCOMES
+
+

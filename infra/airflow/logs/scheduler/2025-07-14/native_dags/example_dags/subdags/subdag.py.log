@@ -1,0 +1,10 @@
+[2025-07-14T16:13:49.259+0900] {processor.py:161} INFO - Started process (PID=55615) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-07-14T16:13:49.260+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-07-14T16:13:49.261+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:13:49.260+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-07-14T16:13:49.262+0900] {processor.py:842} WARNING - No viable dags retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-07-14T16:13:49.293+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.036 seconds
+[2025-07-14T16:15:24.719+0900] {processor.py:161} INFO - Started process (PID=55856) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-07-14T16:15:24.721+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-07-14T16:15:24.721+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:15:24.721+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-07-14T16:15:24.722+0900] {processor.py:842} WARNING - No viable dags retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-07-14T16:15:24.755+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.038 seconds

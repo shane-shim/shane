@@ -1,0 +1,11 @@
+[2025-07-14T16:14:16.484+0900] {processor.py:161} INFO - Started process (PID=55701) to work on /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-07-14T16:14:16.486+0900] {processor.py:830} INFO - Processing file /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-07-14T16:14:16.487+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:16.487+0900] {dagbag.py:545} INFO - Filling up the DagBag from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-07-14T16:14:16.513+0900] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-07-14T16:14:16.636+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:16.636+0900] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2025-07-14T16:14:16.641+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:16.640+0900] {override.py:1930} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2025-07-14T16:14:16.644+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:16.644+0900] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2025-07-14T16:14:16.644+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:16.644+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-14T16:14:16.649+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:16.649+0900] {dag.py:3118} INFO - Creating ORM DAG for example_task_group_decorator
+[2025-07-14T16:14:16.655+0900] {logging_mixin.py:188} INFO - [2025-07-14T16:14:16.655+0900] {dag.py:3954} INFO - Setting next_dagrun for example_task_group_decorator to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-14T16:14:16.664+0900] {processor.py:183} INFO - Processing /Users/jaewansim/Documents/nerdlab/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.182 seconds
